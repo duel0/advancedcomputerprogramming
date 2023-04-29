@@ -1,0 +1,25 @@
+
+ol{
+	border: 5px solid darksalmon; 
+	border-radius: 10px;
+}
+
+li{
+	color: brown;
+}
+
+ol li{
+	color: brown;
+}
+
+.content li { 
+	color: brown;
+}
+
+li:first-child { 
+	background: yellow;
+}
+
+li:nth-child(2) { 
+	background: orange;
+}

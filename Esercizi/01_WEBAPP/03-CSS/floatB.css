@@ -1,0 +1,27 @@
+main {
+    width: 500px;
+    margin: auto;
+    background: gray;
+    /* questo overflow auto ci permette di ripristinare il background
+     perchè quando tutti gli elementi contenuti in un altro elemento sono
+     floated, allora si perde l'altezza (height=0)*/
+
+    overflow: auto;
+}
+
+nav {
+    width: 100px;
+    float: right;
+}
+
+/* remove defaults on the p elements inside the nav */
+nav p {
+    margin: 0;
+    padding: 0;
+}
+
+p.content {
+    margin: 0; /* zero out the default margin */
+    float: left;
+    width: 400px;
+}
