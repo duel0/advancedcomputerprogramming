@@ -1,25 +1,25 @@
 var main = function() {
     "use strict"
 
-    var addCommentFromInputBox = function(){
-        var $new_comment;
+    var addComment = function(){
         if($(".comment-input input").val()!==""){
+            var $new_comment;
             $new_comment=$("<p>").text($(".comment-input input").val());
             $new_comment.hide();
             $(".comments").append($new_comment);
             $new_comment.fadeIn();
             $(".comment-input input").val("");
         }
-    };
+    }
 
-    $(".comment-input button").on("click", function(event){
-        addCommentFromInputBox();
+    $(".comment-input button").on("click", function(){
+        addComment();
     });
     $(".comment-input input").on("keypress", function(event){
         if(event.key==="Enter"){
-            addCommentFromInputBox();
+            addComment();
         }
     });
 }
 
-$().ready(main);
+$(document).ready(main);
