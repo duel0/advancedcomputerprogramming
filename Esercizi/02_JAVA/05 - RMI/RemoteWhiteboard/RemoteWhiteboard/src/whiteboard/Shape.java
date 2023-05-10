@@ -14,7 +14,7 @@ import java.io.*;
 	
 */
 
-public interface Shape extends Serializable {
+public interface Shape extends Serializable { //FA RIFERIMENTO AL TRASFERIMENTO DI OGGETTI NON REMOTI!!!
 
 	public void draw ();
 

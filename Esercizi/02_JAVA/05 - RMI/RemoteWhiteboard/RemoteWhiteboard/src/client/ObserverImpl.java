@@ -23,7 +23,7 @@ public class ObserverImpl extends UnicastRemoteObject implements Observer {
 	 * il client richiede lo stato corrente della lavagna al server
 	 */
 	
-	public void observerNotify () throws RemoteException{
+	public void observerNotify () throws RemoteException{ //Lato observer va a disegnare la figura attraverso il getShapes
 
 		System.out.println ("\n\nNotified! Current board content: ");
 		

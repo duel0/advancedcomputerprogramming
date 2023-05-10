@@ -5,7 +5,9 @@ import java.rmi.server.*;
 import java.util.Vector;
 
 import whiteboard.*;
-
+// Sto dichiarando che l'istanze della classe WhiteboardImpl è un oggetto remoto
+// Ereditarietà devo invocare il costruttore e viene esportato
+// Delega viene fatto l'export lato implementazione, lato main
 public class WhiteboardImpl extends UnicastRemoteObject implements Whiteboard {
 	
 	
@@ -13,7 +15,9 @@ public class WhiteboardImpl extends UnicastRemoteObject implements Whiteboard {
 	private Vector<Shape> boardContent;			//contiene le shapes disegnate sulla lavagna elettronica
 	private Vector<Observer> attachedObservers;	//contiene gli observer registrati
 	
-	protected final static long serialVersionUID = 10;
+	protected final static long serialVersionUID = 10; // Serve per JavaRMI, tutti gli oggetti remoti sono serializzati.
+	// Potrebbe servire per indicare al server che c'è un mismatch tra il servizio che viene chiesto e viene offerto.
+	// Potrebbe essere un servizio troppo aggiornato o troppo vecchio.
 	
 	public WhiteboardImpl () throws RemoteException {
 		count =0;
@@ -57,7 +61,7 @@ public class WhiteboardImpl extends UnicastRemoteObject implements Whiteboard {
 	 * NOTA: gli Observer sono oggetti remoti
 	 */
 
-	private void notifyAllObservers(){
+	private void notifyAllObservers(){ //Se diventa Public cosa succede? Errore super grave.
 
 		System.out.println ("(new shape, notify observers! )" );
 		int size = attachedObservers.size();

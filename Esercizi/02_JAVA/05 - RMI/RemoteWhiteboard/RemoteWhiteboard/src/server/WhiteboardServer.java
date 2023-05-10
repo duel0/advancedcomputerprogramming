@@ -19,8 +19,8 @@ public class WhiteboardServer {
 			
 			System.out.println (board.toString() + "\n");
 			
-			Registry rmiRegistry = LocateRegistry.getRegistry();
-			rmiRegistry.rebind( "myWhiteboard" , board);
+			Registry rmiRegistry = LocateRegistry.getRegistry(); //Sempre javarmi
+			rmiRegistry.rebind( "myWhiteboard" , board); //Esporre oggetti remoti = bindarli
 			System.out.println ("Object registered with name < myWhiteboard > \n" );
 			
 		}catch(Exception e){
