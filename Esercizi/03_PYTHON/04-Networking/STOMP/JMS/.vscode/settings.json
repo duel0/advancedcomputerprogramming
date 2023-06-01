@@ -1,0 +1,10 @@
+{
+    "java.project.sourcePaths": ["src"],
+    "java.project.outputPath": "bin",
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "/Users/raffaeledellacorte/Downloads/apache-activemq-5.18.0/activemq-all-5.18.0.jar",
+        "/Users/raffaeledellacorte/Downloads/apache-log4j-2.20.0-bin/log4j-api-2.20.0.jar",
+        "/Users/raffaeledellacorte/Downloads/apache-log4j-2.20.0-bin/log4j-core-2.20.0.jar"
+    ]
+}
