@@ -26,7 +26,9 @@ public class Server {
 				 */
 				
 				WorkerServer w = new WorkerServer (s);
-				w.start();			
+				w.start();
+				//Aggiunto da Frank
+				server.close();			
 			}
 			
 		}catch ( IOException e ){
