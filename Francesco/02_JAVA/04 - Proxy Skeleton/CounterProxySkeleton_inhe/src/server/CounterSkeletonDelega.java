@@ -4,13 +4,12 @@ import java.io.IOException;
 import java.net.ServerSocket;
 import java.net.Socket;
 
-import service.*;
+import service.ICounter;
 
-public class CounterSkeletonDelega implements ICounter {
-	
-	private ICounter counter;
-	
-	public CounterSkeletonDelega ( ICounter c ){
+public class CounterSkeletonDelega implements ICounter{
+    private ICounter counter;
+
+    public CounterSkeletonDelega ( ICounter c ){
 		counter=c;
 	}
 	
@@ -37,28 +36,28 @@ public class CounterSkeletonDelega implements ICounter {
 		}
 	}
 
-	public void inc(){
-		
-		counter.inc();
-		
-	}
-	
-	public void sum(int value){
-		
-		counter.sum(value);
-		
-	}
-	
-	public void square (){
-		
-		counter.square();
-		
-	}
-	
-	public int get(){
-		
-		return counter.get();
-		
-	}
 
+        public void inc(){
+		
+            counter.inc();
+            
+        }
+        
+        public void sum(int value){
+            
+            counter.sum(value);
+            
+        }
+        
+        public void square (){
+            
+            counter.square();
+            
+        }
+        
+        public int get(){
+            
+            return counter.get();
+            
+        }
 }

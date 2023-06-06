@@ -11,7 +11,7 @@ app.use(express.static(__dirname + "/client"));
 app.use(express.urlencoded());
 
 // 3. connect to the amazeriffic data store in mongo
-mongoose.connect('mongodb://localhost/amazeriffic');
+mongoose.connect('mongodb://127.0.0.1:27017/amazeriffic');
 
 // 4. Definire lo schema dei TODO
 var ToDoSchema = mongoose.Schema({
