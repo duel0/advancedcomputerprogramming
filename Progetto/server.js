@@ -1,45 +1,66 @@
 var express = require("express"),
     http = require("http"),
-    mongoose = require("mongoose")
-    app=express();
+    // 1. importare mongoose
+    mongoose = require("mongoose"),
+    app = express();
 
 app.use(express.static(__dirname + "/client"));
+//app.use(express.bodyParser());
 
+// 2. usare urlencoded per parsare le req/resp json
 app.use(express.urlencoded());
 
-mongoose.connect('mongodb://127.0.0.1:27017/centralino');
+// 3. connect to the amazeriffic data store in mongo
+mongoose.connect('mongodb://127.0.0.1:27017/amazeriffic');
 
-var chiamateSchema = mongoose.Schema({
-    data: String,
-    ora: String,
-    note: String,
-    esito: String,
-})
+// 4. Definire lo schema dei TODO
+var ToDoSchema = mongoose.Schema({
+    
+    description: String,
+    tags: [ String ]
 
-var Chiamata = mongoose.model("Chiamata",chiamateSchema);
-
-http.createServer(app).listen(1234);
-
-app.get("/chiamate.json", function(req,res){
-    Chiamata.find({}, function(err,chiamate){
-        res.json(chiamate);
-    });
 });
 
-app.post("/chiamate", function(req,res){
-    var nuovaChiamata = new Chiamata({"data":req.body.data,"ora":req.body.ora,"note":req.body.note,"esito":req.body.esito});
-    nuovaChiamata.save(function(err,result){
-        if(err!==null){
-            console.log(err);
-            res.send("ERRORE!!");
-        } else {
-            // Rivuole indietro la lista di chiamate
-            Chiamata.find({}, function(err,result){
-                if(err!==null){
-                    res.send("ERRORE FIND!");
-                }
-                res.json(result);
-            });
-        }
-    });
+// 5. Definire il modello
+var ToDo = mongoose.model("ToDo", ToDoSchema);
+
+
+http.createServer(app).listen(3000);
+
+//6. Definire le rotte per il GET dei todo e il POST di nuovi TODO
+
+app.get("/todos.json", function (req, res) {
+    	
+	ToDo.find({}, function (err, toDos) {
+		res.json(toDos);
+    	});
+});
+
+app.post("/todos", function (req, res) {
+    
+	console.log(req.body);
+
+	var newToDo = new ToDo({"description":req.body.description, "tags":req.body.tags});
+
+	newToDo.save(function (err, result) {
+		if (err !== null) {
+			// the element did not get saved!
+			console.log(err);
+			res.send("ERROR");
+
+		} else {
+			// Ricordiamoci che la parte client js richiede ogni volta la lista di tutti i todo
+			// ogni volta che noi ne aggiungiamo uno
+
+			ToDo.find({}, function (err, result) {
+				
+				if (err !== null) {
+			    		// the element did not get saved!
+			    		res.send("ERROR");
+				}
+			
+				res.json(result);
+			});
+		}
+	});
 });

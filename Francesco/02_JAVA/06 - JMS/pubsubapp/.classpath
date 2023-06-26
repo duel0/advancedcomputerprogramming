@@ -6,10 +6,8 @@
 			<attribute name="module" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="H:/Documenti/Git/advancedcomputerprogramming/Francesco/02_JAVA/06 - JMS/pubsubapp/lib/activemq-all-5.18.1.jar">
-		<attributes>
-			<attribute name="module" value="true"/>
-		</attributes>
-	</classpathentry>
+	<classpathentry kind="lib" path="H:/Download/apache-activemq-5.18.1/activemq-all-5.18.1.jar"/>
+	<classpathentry kind="lib" path="H:/Download/jms1.1/lib/javax.jms.jar"/>
+	<classpathentry kind="lib" path="H:/Download/jms1.1/lib/jms.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

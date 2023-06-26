@@ -1,9 +1,0 @@
-/**
- * 
- */
-/**
- * @author Francesco
- *
- */
-module pubsubapp {
-}
