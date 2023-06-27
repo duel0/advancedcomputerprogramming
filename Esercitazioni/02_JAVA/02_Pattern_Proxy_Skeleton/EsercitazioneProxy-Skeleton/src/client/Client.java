@@ -21,13 +21,13 @@ public class Client {
 		 */
 		
 		IDispatcher dispatcher = new DispatcherProxy ( args[0], Integer.valueOf( args[1]) );
+	
+		for (int i=0; i<4; i++){
+			
+			ClientWorkerThread client = new ClientWorkerThread(dispatcher);
+			client.start();
+		}
 		
-		int x = (int)(Math.random()*4);
-		
-		System.out.println ("[CLN] invio comando # " + x );
-		
-		dispatcher.sendCmd(x);
-
 	}
 
 }

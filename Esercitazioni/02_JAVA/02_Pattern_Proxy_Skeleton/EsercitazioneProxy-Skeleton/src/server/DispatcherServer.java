@@ -19,10 +19,9 @@ public class DispatcherServer {
 		 */
 		
 		
-		DispatcherImpl dispatcher = new DispatcherImpl (); //Oggetto di implementazione
+		DispatcherImpl dispatcher = new DispatcherImpl (5);
 		DispatcherSkeletonD skeleton = new DispatcherSkeletonD ( dispatcher, Integer.valueOf(args[0]) );
 		skeleton.runSkeleton();
-		
 		
 		
 		/*

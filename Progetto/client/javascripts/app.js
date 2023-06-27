@@ -110,7 +110,12 @@ var main = function (toDoObjects) {
 
                         $input.val("");
                         $tagInput.val("");
+
                     });
+                });
+                // Bottone
+                $bottone.on("click", function(){
+                    var data = $data.val(), ora=$ora.val(), note=$note.val(), esito=$esito.val(), newTelefonata = {"data":data,"ora":ora,"note":note,"esito":esito};
                 });
                 // Prima Modifica!!!
                 $content = $("<div>").append($dataLabel).append($data).append($oraLabel).append($ora).append($noteLabel).append($note).append($esitoLabel).append($esito).append($bottone)

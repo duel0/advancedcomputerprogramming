@@ -17,8 +17,6 @@ public class DispatcherSkeletonD implements IDispatcher {
 		port = p;
 	}
 	
-	
-	
 	public void runSkeleton () {
 		
 		try{

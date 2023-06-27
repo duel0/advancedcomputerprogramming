@@ -1,0 +1,13 @@
+comando = 2
+comando = 2
+comando = 2
+comando = 2
+comando = 2
+comando = 2
+comando = 2
+comando = 3
+comando = 3
+comando = 3
+comando = 3
+comando = 3
+comando = 0
