@@ -3,6 +3,7 @@
     "java.project.outputPath": "bin",
     "java.project.referencedLibraries": [
         "lib/**/*.jar",
-        "/Users/ldesi/apache-activemq-5.16.6/activemq-all-5.16.6.jar"
+        "/Users/ldesi/apache-activemq-5.16.6/activemq-all-5.16.6.jar",
+        "h:\\Download\\apache-activemq-5.9.1\\activemq-all-5.9.1.jar"
     ]
 }

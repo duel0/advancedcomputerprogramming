@@ -4,8 +4,8 @@
 }
 
 body {
-  background: #f9e933;
-  font-family: 'Droid Sans', sans-serif;
+  background: #3c6dc7;
+  font-family: 'Roboto', sans-serif;
 }
 
 header, main, footer {
@@ -19,20 +19,24 @@ header .container, main .container, footer .container {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Roboto', sans-serif;
 }
 
 header {
   padding: 25px 0 25px 0;
-  background: white;
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
   overflow: auto;
   border-bottom: 1px solid #ddd;
 }
-
+header .container img {
+  width: 50px;
+  float: left;
+}
 header h1 {
-  font-style: italic;
+  font-style: bold;
   font-size: 3em;
-  color: #b33;
+  color: rgb(180, 206, 255);
   float: left;
   width: 570px;
 }
@@ -43,15 +47,19 @@ header nav {
 }
 
 a {
-  color: #f00;
+  color: rgb(255, 255, 255);
   text-decoration: none;
   font-weight: bold;
 }
 
 main {
-    background: #fff;
+    background-image: url("../img/bigger.jpg");
     border-radius: 0 5px 5px 5px;;
     padding: 40px;
+}
+
+.tabs a {
+  color: blue;
 }
 
 .tabs a span {
@@ -60,7 +68,7 @@ main {
     width: 100px;
     margin-right: 10px;
     text-align: center;
-    background: #ddd;
+    background: #ffffff;
     padding: 5px;
 }
 
@@ -104,7 +112,7 @@ main .content span {
 }
 
 main .content p {
-    color: red;
+    color: rgb(0, 174, 255);
     margin: 30px 0 0px 0;
 }
 
@@ -114,47 +122,89 @@ main .content p:first-child {
 
 main .content input {
     font-size: 1.5em;
+    width: auto;
+    padding: auto;
+    margin: auto;
+    box-sizing: border-box;
 }
 
+main .content input[name="status"] {
+  appearance: none;
+  border-radius: 50%;
+  width: 16px;
+  height: 16px;
 
+  border: 2px solid #999;
+  transition: 0.2s all linear;
+  margin-right: 5px;
+
+  position: relative;
+  top: 4px;
+}
+
+main .content input[name="status"]:checked{
+  border: 6px solid rgb(48, 121, 255);
+}
+
+main .content button{
+  background-color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  color: black;
+  border: 2px solid rgb(48, 121, 255); 
+  border-radius: 12px;
+  transition-duration: 0.4s;
+  margin-left: 350px;
+  margin-top: 50px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  float: none;
+}
+
+main .content button:hover{
+  background-color: rgb(48, 121, 255); 
+  color: white;
+}
+
+main .content fieldset{
+
+  border: 1px solid #526cff;
+  border-radius: 12px;
+  width: 80%;
+  
+  padding: 3px;
+  
+}
 
 footer {
     border-top: 1px solid #ddd;
     padding: 40px 0 20px 0;
+    clear:both;
+}
+
+footer .logo {
+  width: 400px;
+  float: right;
 }
 
 footer .contact {
   float: left;
-  width: 570px;    
+  width: 270px;    
 }
 
 footer h5 {
     font-size: 1.25em;
     margin-bottom: 20px;
+    color: white;
 }
 
 footer .contact p:nth-child(2) {
-  color: #b33;
-  font-style: italic;
+  color: rgb(255, 255, 255);
+  font-style: bold;
 }
 
-footer .sitemap {
-    float: right;
-    width: 285px;
+footer .contact p{
+  color: white;
 }
 
-footer ul {
-    width: 230px;
-}
-
-li {
-    list-style: none;
-}
-
-footer .sitemap .left {
-    float: left;
-}
-
-footer .sitemap .right {
-    float: right;
-}

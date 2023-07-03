@@ -1,61 +1,52 @@
+const { kStringMaxLength } = require("buffer");
+const { time } = require("console");
+
 var express = require("express"),
     http = require("http"),
-    // 1. importare mongoose
     mongoose = require("mongoose"),
     app = express();
 
 app.use(express.static(__dirname + "/client"));
-//app.use(express.bodyParser());
 
-// 2. usare urlencoded per parsare le req/resp json
 app.use(express.urlencoded());
 
-// 3. connect to the amazeriffic data store in mongo
-mongoose.connect('mongodb://127.0.0.1:27017/amazeriffic');
+mongoose.connect('mongodb://127.0.0.1:27017/callcenterfinal');
 
-// 4. Definire lo schema dei TODO
-var ToDoSchema = mongoose.Schema({
-    
-    description: String,
-    tags: [ String ]
-
+var CallSchema = mongoose.Schema({
+	numero : String,
+	data : String,
+	ora : String,
+	note : String,
+	esito : String
 });
 
-// 5. Definire il modello
-var ToDo = mongoose.model("ToDo", ToDoSchema);
-
+var Call = mongoose.model("Call", CallSchema);
 
 http.createServer(app).listen(3000);
 
-//6. Definire le rotte per il GET dei todo e il POST di nuovi TODO
-
-app.get("/todos.json", function (req, res) {
-    	
-	ToDo.find({}, function (err, toDos) {
-		res.json(toDos);
+app.get("/calls.json", function (req, res) {
+	Call.find({}, function (err, calls) {
+		res.json(calls);
     	});
 });
 
-app.post("/todos", function (req, res) {
+app.post("/calls", function (req, res) {
     
 	console.log(req.body);
 
-	var newToDo = new ToDo({"description":req.body.description, "tags":req.body.tags});
+	var newCall = new Call({"numero":req.body.numero, "data":req.body.data, "ora":req.body.ora, "note":req.body.note, "esito":req.body.esito});
 
-	newToDo.save(function (err, result) {
+	newCall.save(function (err, result) {
 		if (err !== null) {
-			// the element did not get saved!
 			console.log(err);
 			res.send("ERROR");
 
 		} else {
-			// Ricordiamoci che la parte client js richiede ogni volta la lista di tutti i todo
-			// ogni volta che noi ne aggiungiamo uno
-
-			ToDo.find({}, function (err, result) {
+			// Ridiamo la lista ogni volta
+			Call.find({}, function (err, result) {
 				
 				if (err !== null) {
-			    		// the element did not get saved!
+			    		// Controllo errori
 			    		res.send("ERROR");
 				}
 			

@@ -10,13 +10,7 @@ public class Subscriber {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		Hashtable<String, String> jndiProperties = new Hashtable<String, String>();
 		
-		jndiProperties.put( "java.naming.factory.initial", "org.apache.activemq.jndi.ActiveMQInitialContextFactory" );
-		jndiProperties.put( "java.naming.provider.url", "tcp://127.0.0.1:61616" );
-		
-		//		jndi topic name   queue-name
-		jndiProperties.put( "topic.test", "mytesttopic" );
 		
 		try{
 			

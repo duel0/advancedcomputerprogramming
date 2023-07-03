@@ -1,0 +1,11 @@
+comando = 1
+comando = 0
+comando = 1
+comando = 3
+comando = 0
+comando = 1
+comando = 0
+comando = 3
+comando = 2
+comando = 1
+comando = 0

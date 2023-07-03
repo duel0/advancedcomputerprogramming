@@ -21,7 +21,7 @@ public abstract class CounterSkel implements ICounter {
 			while (true){
 				
 				socket = serverSocket.accept();
-				SkeletonThread st = new SkeletonThread(socket, this);
+				CounterWorker st = new CounterWorker(socket, this);
 				st.start();
 			}
 			

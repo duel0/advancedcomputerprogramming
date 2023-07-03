@@ -9,12 +9,12 @@ import java.net.Socket;
 
 import service.ICounter;
 
-public class SkeletonThread extends Thread{
+public class CounterWorker extends Thread{
 		
 		Socket s;
 		ICounter count;
 		
-		public SkeletonThread (Socket s, ICounter count){
+		public CounterWorker (Socket s, ICounter count){
 			
 			this.s = s;
 			this.count = count;

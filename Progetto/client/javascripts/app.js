@@ -1,12 +1,18 @@
-var main = function (toDoObjects) {
+var main = function (callObjects) {
 
     "use strict";
     console.log("SANITY CHECK");
-    
-    var toDos = toDoObjects.map(function (toDo) {
-          // we'll just return the description
-          // of this toDoObject
-          return toDo.description;
+
+    var radioOptions = [
+        { label: 'Occupato\t', value: 1 },
+        { label: 'Senza risposta\t', value: 2 },
+        { label: 'Da richiamare\t', value: 3 },
+        { label: 'Non interessato\t', value: 4 },
+        { label: 'Appuntamento fissato\t', value: 5 }
+      ];
+
+    var calls = callObjects.map(function (call) {
+          return "Numero: "+call.numero+"\nData: "+call.data+"\nOra: "+call.ora+"\nNote: "+call.note+"\nEsito: "+radioOptions[call.esito-1].label; //Stampo l'esito sotto forma di testo!
     });
 
     $(".tabs a span").toArray().forEach(function (element) {
@@ -25,105 +31,59 @@ var main = function (toDoObjects) {
 
             if ($element.parent().is(":nth-child(1)")) {
                 $content = $("<ul>");
-                for (i = toDos.length-1; i >= 0; i--) {
-                    $content.append($("<li>").text(toDos[i]));
+                for (i = calls.length-1; i >= 0; i--) {
+                    $content.append($("<li>").text(calls[i]));
                 }
-            } else if ($element.parent().is(":nth-child(2)")) {
-                $content = $("<ul>");
-                toDos.forEach(function (todo) {
-                    $content.append($("<li>").text(todo));
-                });
 
-            } else if ($element.parent().is(":nth-child(3)")) {
-                var tags = [];
+            }  else if ($element.parent().is(":nth-child(2)")) {
 
-                toDoObjects.forEach(function (toDo) {
-                    toDo.tags.forEach(function (tag) {
-                        if (tags.indexOf(tag) === -1) {
-                            tags.push(tag);
-                        }
-                    });
-                });
-                console.log(tags);
-
-                var tagObjects = tags.map(function (tag) {
-                    var toDosWithTag = [];
-
-                    toDoObjects.forEach(function (toDo) {
-                        if (toDo.tags.indexOf(tag) !== -1) {
-                            toDosWithTag.push(toDo.description);
-                        }
-                    });
-
-                    return { "name": tag, "toDos": toDosWithTag };
-                });
-
-                console.log(tagObjects);
-
-                tagObjects.forEach(function (tag) {
-                    var $tagName = $("<h3>").text(tag.name),
-                        $content = $("<ul>");
-
-
-                    tag.toDos.forEach(function (description) {
-                        var $li = $("<li>").text(description);
-                        $content.append($li);
-                    });
-
-                    $("main .content").append($tagName);
-                    $("main .content").append($content);
-                });
-
-            } else if ($element.parent().is(":nth-child(4)")) {
-
-                var $data = $("<input>").addClass("data"),
+                var $numero = $("<input type='tel' id='telefono' name='telefono' placeholder='3XX-XXX-XXXX' pattern='[0-9]{3}-[0-9]{3}-[0-9]{4}' required>").addClass("numero"),
+                    $numeroLabel = $("<p>").text("Numero: "),
+                    $data = $("<input type='date'>").addClass("data"),
                     $dataLabel = $("<p>").text("Data: "),
-                    $ora = $("<input>").addClass("ora"),
+                    $ora = $("<input type='time'>").addClass("ora"),
                     $oraLabel = $("<p>").text("Ora: "),
                     $note = $("<input>").addClass("note"),
                     $noteLabel = $("<p>").text("Note: "),
-                    $esito = $("<input>").addClass("esito"),
+                    $form = $('<form></form>'),
+                    $fieldset = $('<fieldset></fieldset>'),
                     $esitoLabel = $("<p>").text("Esito: "),
-                    $bottone = $("<span>").text("Registra Esito");
-
-                var $input = $("<input>").addClass("description"),
-                    $inputLabel = $("<p>").text("Description: "),
-                    $tagInput = $("<input>").addClass("tags"),
-                    $tagLabel = $("<p>").text("Tags: "),
-                    $button = $("<span>").text("+");
-
-                $button.on("click", function () {
-                    var description = $input.val(),
-                        tags = $tagInput.val().split(","),
-                        newToDo = {"description":description, "tags":tags};
-
-                    $.post("todos", newToDo, function (result) {
+                    $bottone = $("<button>").text(" Registra Esito "); // ho cambiato span con button
+                
+                radioOptions.forEach(function(option){
+                    var radioLabel = $("<label>").text(option.label);
+                    var radioButton = $('<input type="radio" name="status" value="' + option.value + '">');
+                    // Aggiunta degli elementi radio al fieldset
+                    $fieldset.append(radioButton);
+                    $fieldset.append(radioLabel);
+                });
+                
+                $form.append($fieldset);   
+                
+                $bottone.on("click", function(){
+                    
+                    var numero = $numero.val(), data = $data.val(), ora=$ora.val(), note=$note.val(), esito=$("input[type='radio'][name='status']:checked").val();
+                    var newTelefonata = {"numero":numero,"data":data,"ora":ora,"note":note,"esito":esito};
+                    $.post("calls", newTelefonata, function(result) {
                         console.log(result);
+                        callObjects = result; 
 
-                        //toDoObjects.push(newToDo);
-                        toDoObjects = result;
-
-                        // update toDos
-                        toDos = toDoObjects.map(function (toDo) {
-                            return toDo.description;
+                        calls = callObjects.map(function (call){
+                            return "Numero: "+call.numero+"\nData: "+call.data+"\nOra: "+call.ora+"\nNote: "+call.note+"\nEsito: "+radioOptions[call.esito-1].label;
                         });
 
-                        $input.val("");
-                        $tagInput.val("");
-
+                        $numero.val("");
+                        $data.val("");
+                        $ora.val("");
+                        $note.val("");
+                        $('input[name="status"]').prop('checked', false);
+                        window.alert("Telefonata Registrata Con Successo!");
                     });
+                    
                 });
-                // Bottone
-                $bottone.on("click", function(){
-                    var data = $data.val(), ora=$ora.val(), note=$note.val(), esito=$esito.val(), newTelefonata = {"data":data,"ora":ora,"note":note,"esito":esito};
-                });
-                // Prima Modifica!!!
-                $content = $("<div>").append($dataLabel).append($data).append($oraLabel).append($ora).append($noteLabel).append($note).append($esitoLabel).append($esito).append($bottone)
-                                     .append($inputLabel)
-                                     .append($input)
-                                     .append($tagLabel)
-                                     .append($tagInput)
-                                     .append($button);
+                
+                $content = $("<div>").append($numeroLabel).append($numero).append($dataLabel)
+                                     .append($data).append($oraLabel).append($ora).append($noteLabel).append($note).append($esitoLabel).append($form).append($bottone);
             }
 
             $("main .content").append($content);
@@ -136,7 +96,7 @@ var main = function (toDoObjects) {
 };
 
 $(document).ready(function () {
-    $.getJSON("todos.json", function (toDoObjects) {
-        main(toDoObjects);
+    $.getJSON("calls.json", function (callObjects) {
+        main(callObjects);
     });
 });
