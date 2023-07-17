@@ -104,7 +104,7 @@ if __name__ == "__main__":
             ## mi conviene salvare il file in locale se volessi
             ## presentarlo in una webapp
             plt.savefig('prediction.png')
-        
+            plt.show()
             break
 
     conn.disconnect()

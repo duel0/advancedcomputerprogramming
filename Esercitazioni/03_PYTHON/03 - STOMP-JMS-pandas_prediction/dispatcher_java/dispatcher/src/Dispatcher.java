@@ -39,7 +39,7 @@ public class Dispatcher {
 			Queue qresponse = (Queue)jndiContext.lookup("response");
 
 			// passo al listener la sessione, la coda di risposte ed il numero di porto (ricevuto da terminale) in modo da inviare il messaggio al server
-			int port = Integer.valueOf(args[0]);		
+			int port = Integer.valueOf(2500);		
 			// questa soluzione passaggio con la session va bene perchè non è il multithread il proxy
 			DispatcherMsgListener listener = new DispatcherMsgListener(qs, qresponse, port);
 			receiver.setMessageListener(listener);

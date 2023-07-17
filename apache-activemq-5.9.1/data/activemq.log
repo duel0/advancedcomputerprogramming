@@ -1,0 +1,629 @@
+2023-07-01 09:37:46,803 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@6a41eaa2: startup date [Sat Jul 01 09:37:46 CEST 2023]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2023-07-01 09:37:47,190 | INFO  | PListStore:[H:\Download\apache-activemq-5.9.1\bin\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2023-07-01 09:37:47,200 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[H:\Download\apache-activemq-5.9.1\bin\..\data\kahadb] | org.apache.activemq.broker.BrokerService | main
+2023-07-01 09:37:47,438 | INFO  | Apache ActiveMQ 5.9.1 (localhost, ID:DESKTOP-EGLKD70-50861-1688197067325-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2023-07-01 09:37:47,447 | INFO  | Listening for connections at: tcp://DESKTOP-EGLKD70:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2023-07-01 09:37:47,447 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2023-07-01 09:37:47,449 | INFO  | Listening for connections at: amqp://DESKTOP-EGLKD70:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2023-07-01 09:37:47,449 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2023-07-01 09:37:47,453 | INFO  | Listening for connections at: stomp://DESKTOP-EGLKD70:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2023-07-01 09:37:47,453 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2023-07-01 09:37:47,455 | INFO  | Listening for connections at: mqtt://DESKTOP-EGLKD70:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2023-07-01 09:37:47,455 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2023-07-01 09:37:47,524 | INFO  | Listening for connections at ws://DESKTOP-EGLKD70:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2023-07-01 09:37:47,524 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2023-07-01 09:37:47,524 | INFO  | Apache ActiveMQ 5.9.1 (localhost, ID:DESKTOP-EGLKD70-50861-1688197067325-0:1) started | org.apache.activemq.broker.BrokerService | main
+2023-07-01 09:37:47,524 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2023-07-01 09:37:47,745 | INFO  | ActiveMQ WebConsole available at http://localhost:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2023-07-01 09:37:47,780 | INFO  | Initializing Spring FrameworkServlet 'dispatcher' | /admin | main
+2023-07-01 09:37:47,889 | INFO  | jolokia-agent: No access restrictor found at classpath:/jolokia-access.xml, access to all MBeans is allowed | /api | main
+2023-07-01 10:02:13,194 | WARN  | Transport Connection to: tcp://127.0.0.1:51377 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:51377@61616
+2023-07-01 10:02:30,166 | WARN  | Transport Connection to: tcp://127.0.0.1:51387 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:51387@61616
+2023-07-01 10:05:32,587 | WARN  | Transport Connection to: tcp://127.0.0.1:51419 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:51419@61616
+2023-07-01 10:05:34,483 | WARN  | Transport Connection to: tcp://127.0.0.1:51427 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:51427@61616
+2023-07-01 10:06:56,674 | WARN  | Transport Connection to: tcp://127.0.0.1:51458 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:51458@61616
+2023-07-02 15:33:38,847 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@6a41eaa2: startup date [Sun Jul 02 15:33:38 CEST 2023]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2023-07-02 15:33:39,373 | INFO  | PListStore:[H:\Download\apache-activemq-5.9.1\bin\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2023-07-02 15:33:39,384 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[H:\Download\apache-activemq-5.9.1\bin\..\data\kahadb] | org.apache.activemq.broker.BrokerService | main
+2023-07-02 15:33:39,616 | INFO  | KahaDB is version 5 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2023-07-02 15:33:39,634 | INFO  | Recovering from the journal ... | org.apache.activemq.store.kahadb.MessageDatabase | main
+2023-07-02 15:33:39,644 | INFO  | Recovery replayed 179 operations from the journal in 0.02 seconds. | org.apache.activemq.store.kahadb.MessageDatabase | main
+2023-07-02 15:33:39,783 | INFO  | Apache ActiveMQ 5.9.1 (localhost, ID:DESKTOP-EGLKD70-52273-1688304819662-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2023-07-02 15:33:39,843 | INFO  | Listening for connections at: tcp://DESKTOP-EGLKD70:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2023-07-02 15:33:39,844 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2023-07-02 15:33:39,846 | INFO  | Listening for connections at: amqp://DESKTOP-EGLKD70:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2023-07-02 15:33:39,846 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2023-07-02 15:33:39,848 | INFO  | Listening for connections at: stomp://DESKTOP-EGLKD70:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2023-07-02 15:33:39,848 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2023-07-02 15:33:39,851 | INFO  | Listening for connections at: mqtt://DESKTOP-EGLKD70:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2023-07-02 15:33:39,851 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2023-07-02 15:33:39,926 | INFO  | Listening for connections at ws://DESKTOP-EGLKD70:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2023-07-02 15:33:39,926 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2023-07-02 15:33:39,927 | INFO  | Apache ActiveMQ 5.9.1 (localhost, ID:DESKTOP-EGLKD70-52273-1688304819662-0:1) started | org.apache.activemq.broker.BrokerService | main
+2023-07-02 15:33:39,927 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2023-07-02 15:33:40,202 | INFO  | ActiveMQ WebConsole available at http://localhost:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2023-07-02 15:33:40,238 | INFO  | Initializing Spring FrameworkServlet 'dispatcher' | /admin | main
+2023-07-02 15:33:40,363 | INFO  | jolokia-agent: No access restrictor found at classpath:/jolokia-access.xml, access to all MBeans is allowed | /api | main
+2023-07-02 15:34:09,579 | WARN  | Transport Connection to: tcp://127.0.0.1:52294 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:52294@61616
+2023-07-02 15:40:20,320 | WARN  | Transport Connection to: tcp://127.0.0.1:52406 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:52406@61616
+2023-07-02 15:42:00,371 | WARN  | Transport Connection to: tcp://127.0.0.1:52438 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:52438@61616
+2023-07-02 15:48:58,201 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@6a41eaa2: startup date [Sun Jul 02 15:48:58 CEST 2023]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2023-07-02 15:48:58,596 | INFO  | PListStore:[H:\Download\apache-activemq-5.9.1\bin\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2023-07-02 15:48:58,605 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[H:\Download\apache-activemq-5.9.1\bin\..\data\kahadb] | org.apache.activemq.broker.BrokerService | main
+2023-07-02 15:48:58,802 | INFO  | KahaDB is version 5 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2023-07-02 15:48:58,819 | INFO  | Recovering from the journal ... | org.apache.activemq.store.kahadb.MessageDatabase | main
+2023-07-02 15:48:58,831 | INFO  | Recovery replayed 280 operations from the journal in 0.022 seconds. | org.apache.activemq.store.kahadb.MessageDatabase | main
+2023-07-02 15:48:58,956 | INFO  | Apache ActiveMQ 5.9.1 (localhost, ID:DESKTOP-EGLKD70-52605-1688305738843-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2023-07-02 15:48:58,998 | INFO  | Listening for connections at: tcp://DESKTOP-EGLKD70:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2023-07-02 15:48:58,998 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2023-07-02 15:48:59,000 | INFO  | Listening for connections at: amqp://DESKTOP-EGLKD70:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2023-07-02 15:48:59,000 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2023-07-02 15:48:59,002 | INFO  | Listening for connections at: stomp://DESKTOP-EGLKD70:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2023-07-02 15:48:59,002 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2023-07-02 15:48:59,004 | INFO  | Listening for connections at: mqtt://DESKTOP-EGLKD70:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2023-07-02 15:48:59,004 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2023-07-02 15:48:59,070 | INFO  | Listening for connections at ws://DESKTOP-EGLKD70:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2023-07-02 15:48:59,070 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2023-07-02 15:48:59,070 | INFO  | Apache ActiveMQ 5.9.1 (localhost, ID:DESKTOP-EGLKD70-52605-1688305738843-0:1) started | org.apache.activemq.broker.BrokerService | main
+2023-07-02 15:48:59,070 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2023-07-02 15:48:59,275 | INFO  | ActiveMQ WebConsole available at http://localhost:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2023-07-02 15:48:59,309 | INFO  | Initializing Spring FrameworkServlet 'dispatcher' | /admin | main
+2023-07-02 15:48:59,430 | INFO  | jolokia-agent: No access restrictor found at classpath:/jolokia-access.xml, access to all MBeans is allowed | /api | main
+2023-07-02 15:50:01,015 | WARN  | Transport Connection to: tcp://127.0.0.1:52628 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:52628@61616
+2023-07-02 15:51:33,751 | WARN  | Transport Connection to: tcp://127.0.0.1:52677 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:52677@61616
+2023-07-02 15:54:39,521 | WARN  | Transport Connection to: tcp://127.0.0.1:52732 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:52732@61616
+2023-07-02 15:57:29,336 | WARN  | Transport Connection to: tcp://127.0.0.1:52779 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:52779@61616
+2023-07-02 15:58:00,324 | WARN  | Transport Connection to: tcp://127.0.0.1:52813 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:52813@61616
+2023-07-02 19:25:17,993 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@6a41eaa2: startup date [Sun Jul 02 19:25:17 CEST 2023]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2023-07-02 19:25:18,373 | INFO  | PListStore:[H:\Download\apache-activemq-5.9.1\bin\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2023-07-02 19:25:18,383 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[H:\Download\apache-activemq-5.9.1\bin\..\data\kahadb] | org.apache.activemq.broker.BrokerService | main
+2023-07-02 19:25:18,561 | INFO  | KahaDB is version 5 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2023-07-02 19:25:18,577 | INFO  | Recovering from the journal ... | org.apache.activemq.store.kahadb.MessageDatabase | main
+2023-07-02 19:25:18,619 | INFO  | Recovery replayed 1540 operations from the journal in 0.052 seconds. | org.apache.activemq.store.kahadb.MessageDatabase | main
+2023-07-02 19:25:18,744 | INFO  | Apache ActiveMQ 5.9.1 (localhost, ID:DESKTOP-EGLKD70-55905-1688318718630-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2023-07-02 19:25:18,786 | INFO  | Listening for connections at: tcp://DESKTOP-EGLKD70:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2023-07-02 19:25:18,786 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2023-07-02 19:25:18,788 | INFO  | Listening for connections at: amqp://DESKTOP-EGLKD70:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2023-07-02 19:25:18,788 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2023-07-02 19:25:18,790 | INFO  | Listening for connections at: stomp://DESKTOP-EGLKD70:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2023-07-02 19:25:18,790 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2023-07-02 19:25:18,792 | INFO  | Listening for connections at: mqtt://DESKTOP-EGLKD70:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2023-07-02 19:25:18,792 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2023-07-02 19:25:18,863 | INFO  | Listening for connections at ws://DESKTOP-EGLKD70:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2023-07-02 19:25:18,863 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2023-07-02 19:25:18,863 | INFO  | Apache ActiveMQ 5.9.1 (localhost, ID:DESKTOP-EGLKD70-55905-1688318718630-0:1) started | org.apache.activemq.broker.BrokerService | main
+2023-07-02 19:25:18,863 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2023-07-02 19:25:19,071 | INFO  | ActiveMQ WebConsole available at http://localhost:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2023-07-02 19:25:19,107 | INFO  | Initializing Spring FrameworkServlet 'dispatcher' | /admin | main
+2023-07-02 19:25:19,230 | INFO  | jolokia-agent: No access restrictor found at classpath:/jolokia-access.xml, access to all MBeans is allowed | /api | main
+2023-07-02 19:26:53,049 | WARN  | Transport Connection to: tcp://127.0.0.1:55940 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:55940@61616
+2023-07-02 19:26:53,445 | WARN  | Transport Connection to: tcp://127.0.0.1:55948 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:55948@61616
+2023-07-02 19:29:48,201 | WARN  | Transport Connection to: tcp://127.0.0.1:56002 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:56002@61616
+2023-07-02 19:29:48,475 | WARN  | Transport Connection to: tcp://127.0.0.1:56010 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:56010@61616
+2023-07-02 21:27:04,893 | WARN  | Transport Connection to: tcp://127.0.0.1:57074 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:57074@61616
+2023-07-02 21:27:05,203 | WARN  | Transport Connection to: tcp://127.0.0.1:57082 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:57082@61616
+2023-07-03 15:23:23,676 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@6a41eaa2: startup date [Mon Jul 03 15:23:23 CEST 2023]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2023-07-03 15:23:24,109 | INFO  | PListStore:[H:\Download\apache-activemq-5.9.1\bin\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2023-07-03 15:23:24,119 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[H:\Download\apache-activemq-5.9.1\bin\..\data\kahadb] | org.apache.activemq.broker.BrokerService | main
+2023-07-03 15:23:24,412 | INFO  | KahaDB is version 5 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2023-07-03 15:23:24,434 | INFO  | Recovering from the journal ... | org.apache.activemq.store.kahadb.MessageDatabase | main
+2023-07-03 15:23:24,476 | INFO  | Recovery replayed 1430 operations from the journal in 0.055 seconds. | org.apache.activemq.store.kahadb.MessageDatabase | main
+2023-07-03 15:23:24,606 | INFO  | Apache ActiveMQ 5.9.1 (localhost, ID:DESKTOP-EGLKD70-59785-1688390604490-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2023-07-03 15:23:24,655 | INFO  | Listening for connections at: tcp://DESKTOP-EGLKD70:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2023-07-03 15:23:24,655 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2023-07-03 15:23:24,657 | INFO  | Listening for connections at: amqp://DESKTOP-EGLKD70:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2023-07-03 15:23:24,657 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2023-07-03 15:23:24,659 | INFO  | Listening for connections at: stomp://DESKTOP-EGLKD70:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2023-07-03 15:23:24,660 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2023-07-03 15:23:24,661 | INFO  | Listening for connections at: mqtt://DESKTOP-EGLKD70:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2023-07-03 15:23:24,662 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2023-07-03 15:23:24,734 | INFO  | Listening for connections at ws://DESKTOP-EGLKD70:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2023-07-03 15:23:24,734 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2023-07-03 15:23:24,734 | INFO  | Apache ActiveMQ 5.9.1 (localhost, ID:DESKTOP-EGLKD70-59785-1688390604490-0:1) started | org.apache.activemq.broker.BrokerService | main
+2023-07-03 15:23:24,734 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2023-07-03 15:23:25,052 | INFO  | ActiveMQ WebConsole available at http://localhost:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2023-07-03 15:23:25,086 | INFO  | Initializing Spring FrameworkServlet 'dispatcher' | /admin | main
+2023-07-03 15:23:25,231 | INFO  | jolokia-agent: No access restrictor found at classpath:/jolokia-access.xml, access to all MBeans is allowed | /api | main
+2023-07-03 15:40:55,952 | WARN  | Transport Connection to: tcp://127.0.0.1:60097 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:60097@61616
+2023-07-03 15:40:56,903 | WARN  | Transport Connection to: tcp://127.0.0.1:60103 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:60103@61616
+2023-07-03 15:41:45,800 | WARN  | Transport Connection to: tcp://127.0.0.1:60128 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:60128@61616
+2023-07-03 16:18:21,995 | WARN  | Transport Connection to: tcp://127.0.0.1:60683 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:60683@61616
+2023-07-03 16:18:22,310 | WARN  | Transport Connection to: tcp://127.0.0.1:60696 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:60696@61616
+2023-07-03 16:21:31,459 | WARN  | Transport Connection to: tcp://127.0.0.1:60716 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:60716@61616
+2023-07-03 16:21:36,989 | WARN  | Transport Connection to: tcp://127.0.0.1:60721 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:60721@61616
+2023-07-08 12:09:08,210 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@6a41eaa2: startup date [Sat Jul 08 12:09:08 CEST 2023]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2023-07-08 12:09:08,750 | INFO  | PListStore:[H:\Download\apache-activemq-5.9.1\bin\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2023-07-08 12:09:08,760 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[H:\Download\apache-activemq-5.9.1\bin\..\data\kahadb] | org.apache.activemq.broker.BrokerService | main
+2023-07-08 12:09:09,071 | INFO  | KahaDB is version 5 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2023-07-08 12:09:09,092 | INFO  | Recovering from the journal ... | org.apache.activemq.store.kahadb.MessageDatabase | main
+2023-07-08 12:09:09,098 | INFO  | Recovery replayed 61 operations from the journal in 0.02 seconds. | org.apache.activemq.store.kahadb.MessageDatabase | main
+2023-07-08 12:09:09,226 | INFO  | Apache ActiveMQ 5.9.1 (localhost, ID:DESKTOP-EGLKD70-51037-1688810949111-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2023-07-08 12:09:09,280 | INFO  | Listening for connections at: tcp://DESKTOP-EGLKD70:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2023-07-08 12:09:09,280 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2023-07-08 12:09:09,282 | INFO  | Listening for connections at: amqp://DESKTOP-EGLKD70:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2023-07-08 12:09:09,282 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2023-07-08 12:09:09,284 | INFO  | Listening for connections at: stomp://DESKTOP-EGLKD70:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2023-07-08 12:09:09,284 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2023-07-08 12:09:09,287 | INFO  | Listening for connections at: mqtt://DESKTOP-EGLKD70:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2023-07-08 12:09:09,287 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2023-07-08 12:09:09,363 | INFO  | Listening for connections at ws://DESKTOP-EGLKD70:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2023-07-08 12:09:09,363 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2023-07-08 12:09:09,364 | INFO  | Apache ActiveMQ 5.9.1 (localhost, ID:DESKTOP-EGLKD70-51037-1688810949111-0:1) started | org.apache.activemq.broker.BrokerService | main
+2023-07-08 12:09:09,364 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2023-07-08 12:09:09,669 | INFO  | ActiveMQ WebConsole available at http://localhost:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2023-07-08 12:09:09,707 | INFO  | Initializing Spring FrameworkServlet 'dispatcher' | /admin | main
+2023-07-08 12:09:09,877 | INFO  | jolokia-agent: No access restrictor found at classpath:/jolokia-access.xml, access to all MBeans is allowed | /api | main
+2023-07-09 15:19:03,837 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@6a41eaa2: startup date [Sun Jul 09 15:19:03 CEST 2023]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2023-07-09 15:19:04,317 | INFO  | PListStore:[H:\Download\apache-activemq-5.9.1\bin\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2023-07-09 15:19:04,327 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[H:\Download\apache-activemq-5.9.1\bin\..\data\kahadb] | org.apache.activemq.broker.BrokerService | main
+2023-07-09 15:19:04,616 | INFO  | KahaDB is version 5 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2023-07-09 15:19:04,639 | INFO  | Recovering from the journal ... | org.apache.activemq.store.kahadb.MessageDatabase | main
+2023-07-09 15:19:04,645 | INFO  | Recovery replayed 71 operations from the journal in 0.022 seconds. | org.apache.activemq.store.kahadb.MessageDatabase | main
+2023-07-09 15:19:04,775 | INFO  | Apache ActiveMQ 5.9.1 (localhost, ID:DESKTOP-EGLKD70-52347-1688908744657-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2023-07-09 15:19:04,827 | INFO  | Listening for connections at: tcp://DESKTOP-EGLKD70:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2023-07-09 15:19:04,827 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2023-07-09 15:19:04,829 | INFO  | Listening for connections at: amqp://DESKTOP-EGLKD70:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2023-07-09 15:19:04,829 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2023-07-09 15:19:04,831 | INFO  | Listening for connections at: stomp://DESKTOP-EGLKD70:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2023-07-09 15:19:04,831 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2023-07-09 15:19:04,833 | INFO  | Listening for connections at: mqtt://DESKTOP-EGLKD70:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2023-07-09 15:19:04,833 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2023-07-09 15:19:04,912 | INFO  | Listening for connections at ws://DESKTOP-EGLKD70:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2023-07-09 15:19:04,912 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2023-07-09 15:19:04,913 | INFO  | Apache ActiveMQ 5.9.1 (localhost, ID:DESKTOP-EGLKD70-52347-1688908744657-0:1) started | org.apache.activemq.broker.BrokerService | main
+2023-07-09 15:19:04,913 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2023-07-09 15:19:05,171 | INFO  | ActiveMQ WebConsole available at http://localhost:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2023-07-09 15:19:05,207 | INFO  | Initializing Spring FrameworkServlet 'dispatcher' | /admin | main
+2023-07-09 15:19:05,363 | INFO  | jolokia-agent: No access restrictor found at classpath:/jolokia-access.xml, access to all MBeans is allowed | /api | main
+2023-07-09 17:10:06,837 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@6a41eaa2: startup date [Sun Jul 09 17:10:06 CEST 2023]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2023-07-09 17:10:07,231 | INFO  | PListStore:[H:\Download\apache-activemq-5.9.1\bin\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2023-07-09 17:10:07,240 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[H:\Download\apache-activemq-5.9.1\bin\..\data\kahadb] | org.apache.activemq.broker.BrokerService | main
+2023-07-09 17:10:07,455 | INFO  | KahaDB is version 5 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2023-07-09 17:10:07,476 | INFO  | Recovering from the journal ... | org.apache.activemq.store.kahadb.MessageDatabase | main
+2023-07-09 17:10:07,486 | INFO  | Recovery replayed 136 operations from the journal in 0.022 seconds. | org.apache.activemq.store.kahadb.MessageDatabase | main
+2023-07-09 17:10:07,613 | INFO  | Apache ActiveMQ 5.9.1 (localhost, ID:DESKTOP-EGLKD70-54191-1688915407499-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2023-07-09 17:10:07,665 | INFO  | Listening for connections at: tcp://DESKTOP-EGLKD70:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2023-07-09 17:10:07,665 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2023-07-09 17:10:07,667 | INFO  | Listening for connections at: amqp://DESKTOP-EGLKD70:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2023-07-09 17:10:07,667 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2023-07-09 17:10:07,669 | INFO  | Listening for connections at: stomp://DESKTOP-EGLKD70:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2023-07-09 17:10:07,669 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2023-07-09 17:10:07,671 | INFO  | Listening for connections at: mqtt://DESKTOP-EGLKD70:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2023-07-09 17:10:07,671 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2023-07-09 17:10:07,745 | INFO  | Listening for connections at ws://DESKTOP-EGLKD70:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2023-07-09 17:10:07,745 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2023-07-09 17:10:07,745 | INFO  | Apache ActiveMQ 5.9.1 (localhost, ID:DESKTOP-EGLKD70-54191-1688915407499-0:1) started | org.apache.activemq.broker.BrokerService | main
+2023-07-09 17:10:07,745 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2023-07-09 17:10:07,986 | INFO  | ActiveMQ WebConsole available at http://localhost:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2023-07-09 17:10:08,023 | INFO  | Initializing Spring FrameworkServlet 'dispatcher' | /admin | main
+2023-07-09 17:10:08,155 | INFO  | jolokia-agent: No access restrictor found at classpath:/jolokia-access.xml, access to all MBeans is allowed | /api | main
+2023-07-09 17:12:16,312 | WARN  | Transport Connection to: tcp://127.0.0.1:54227 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:54227@61616
+2023-07-09 17:12:16,703 | WARN  | Transport Connection to: tcp://127.0.0.1:54232 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:54232@61616
+2023-07-09 17:12:17,049 | WARN  | Transport Connection to: tcp://127.0.0.1:54243 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:54243@61616
+2023-07-09 17:20:19,664 | WARN  | Transport Connection to: tcp://127.0.0.1:54391 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:54391@61616
+2023-07-09 17:20:20,008 | WARN  | Transport Connection to: tcp://127.0.0.1:54398 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:54398@61616
+2023-07-09 17:20:20,303 | WARN  | Transport Connection to: tcp://127.0.0.1:54411 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:54411@61616
+2023-07-09 17:20:20,303 | WARN  | Transport Connection to: tcp://127.0.0.1:54415 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:54415@61616
+2023-07-09 17:20:20,303 | WARN  | Transport Connection to: tcp://127.0.0.1:54413 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:54413@61616
+2023-07-09 17:20:20,303 | WARN  | Transport Connection to: tcp://127.0.0.1:54407 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:54407@61616
+2023-07-09 17:20:20,303 | WARN  | Transport Connection to: tcp://127.0.0.1:54425 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:54425@61616
+2023-07-09 17:20:20,303 | WARN  | Transport Connection to: tcp://127.0.0.1:54423 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:54423@61616
+2023-07-09 17:20:20,303 | WARN  | Transport Connection to: tcp://127.0.0.1:54430 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:54430@61616
+2023-07-09 17:20:20,303 | WARN  | Transport Connection to: tcp://127.0.0.1:54421 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:54421@61616
+2023-07-09 17:20:20,303 | WARN  | Transport Connection to: tcp://127.0.0.1:54418 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:54418@61616
+2023-07-09 17:20:20,304 | WARN  | Transport Connection to: tcp://127.0.0.1:54427 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:54427@61616
+2023-07-09 17:23:04,892 | WARN  | Transport Connection to: tcp://127.0.0.1:54480 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:54480@61616
+2023-07-09 17:23:05,159 | WARN  | Transport Connection to: tcp://127.0.0.1:54484 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:54484@61616
+2023-07-09 17:23:05,465 | WARN  | Transport Connection to: tcp://127.0.0.1:54496 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:54496@61616
+2023-07-09 17:23:05,465 | WARN  | Transport Connection to: tcp://127.0.0.1:54502 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:54502@61616
+2023-07-09 17:23:05,465 | WARN  | Transport Connection to: tcp://127.0.0.1:54499 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:54499@61616
+2023-07-09 17:23:05,465 | WARN  | Transport Connection to: tcp://127.0.0.1:54506 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:54506@61616
+2023-07-09 17:23:05,466 | WARN  | Transport Connection to: tcp://127.0.0.1:54510 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:54510@61616
+2023-07-09 17:23:05,466 | WARN  | Transport Connection to: tcp://127.0.0.1:54515 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:54515@61616
+2023-07-09 17:23:05,466 | WARN  | Transport Connection to: tcp://127.0.0.1:54517 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:54517@61616
+2023-07-09 17:23:05,466 | WARN  | Transport Connection to: tcp://127.0.0.1:54508 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:54508@61616
+2023-07-09 17:23:05,466 | WARN  | Transport Connection to: tcp://127.0.0.1:54513 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:54513@61616
+2023-07-09 17:23:05,465 | WARN  | Transport Connection to: tcp://127.0.0.1:54504 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:54504@61616
+2023-07-09 17:25:30,829 | WARN  | Transport Connection to: tcp://127.0.0.1:54542 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:54542@61616
+2023-07-09 17:25:31,073 | WARN  | Transport Connection to: tcp://127.0.0.1:54546 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:54546@61616
+2023-07-09 17:25:31,372 | WARN  | Transport Connection to: tcp://127.0.0.1:54562 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:54562@61616
+2023-07-09 17:25:31,372 | WARN  | Transport Connection to: tcp://127.0.0.1:54566 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:54566@61616
+2023-07-09 17:25:31,372 | WARN  | Transport Connection to: tcp://127.0.0.1:54564 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:54564@61616
+2023-07-09 17:25:31,372 | WARN  | Transport Connection to: tcp://127.0.0.1:54560 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:54560@61616
+2023-07-09 17:25:31,372 | WARN  | Transport Connection to: tcp://127.0.0.1:54556 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:54556@61616
+2023-07-09 17:25:31,372 | WARN  | Transport Connection to: tcp://127.0.0.1:54574 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:54574@61616
+2023-07-09 17:25:31,372 | WARN  | Transport Connection to: tcp://127.0.0.1:54577 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:54577@61616
+2023-07-09 17:25:31,372 | WARN  | Transport Connection to: tcp://127.0.0.1:54570 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:54570@61616
+2023-07-09 17:25:31,372 | WARN  | Transport Connection to: tcp://127.0.0.1:54572 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:54572@61616
+2023-07-09 17:25:31,372 | WARN  | Transport Connection to: tcp://127.0.0.1:54568 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:54568@61616
+2023-07-10 11:35:32,897 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@6a41eaa2: startup date [Mon Jul 10 11:35:32 CEST 2023]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2023-07-10 11:35:33,315 | INFO  | PListStore:[H:\Download\apache-activemq-5.9.1\bin\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2023-07-10 11:35:33,324 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[H:\Download\apache-activemq-5.9.1\bin\..\data\kahadb] | org.apache.activemq.broker.BrokerService | main
+2023-07-10 11:35:33,574 | INFO  | KahaDB is version 5 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2023-07-10 11:35:33,594 | INFO  | Recovering from the journal ... | org.apache.activemq.store.kahadb.MessageDatabase | main
+2023-07-10 11:35:33,608 | INFO  | Recovery replayed 325 operations from the journal in 0.025 seconds. | org.apache.activemq.store.kahadb.MessageDatabase | main
+2023-07-10 11:35:33,735 | INFO  | Apache ActiveMQ 5.9.1 (localhost, ID:DESKTOP-EGLKD70-51713-1688981733621-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2023-07-10 11:35:33,788 | INFO  | Listening for connections at: tcp://DESKTOP-EGLKD70:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2023-07-10 11:35:33,789 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2023-07-10 11:35:33,790 | INFO  | Listening for connections at: amqp://DESKTOP-EGLKD70:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2023-07-10 11:35:33,791 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2023-07-10 11:35:33,792 | INFO  | Listening for connections at: stomp://DESKTOP-EGLKD70:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2023-07-10 11:35:33,792 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2023-07-10 11:35:33,794 | INFO  | Listening for connections at: mqtt://DESKTOP-EGLKD70:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2023-07-10 11:35:33,794 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2023-07-10 11:35:33,862 | INFO  | Listening for connections at ws://DESKTOP-EGLKD70:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2023-07-10 11:35:33,862 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2023-07-10 11:35:33,862 | INFO  | Apache ActiveMQ 5.9.1 (localhost, ID:DESKTOP-EGLKD70-51713-1688981733621-0:1) started | org.apache.activemq.broker.BrokerService | main
+2023-07-10 11:35:33,862 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2023-07-10 11:35:34,153 | INFO  | ActiveMQ WebConsole available at http://localhost:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2023-07-10 11:35:34,190 | INFO  | Initializing Spring FrameworkServlet 'dispatcher' | /admin | main
+2023-07-10 11:35:34,321 | INFO  | jolokia-agent: No access restrictor found at classpath:/jolokia-access.xml, access to all MBeans is allowed | /api | main
+2023-07-10 11:36:01,458 | WARN  | Transport Connection to: tcp://127.0.0.1:51738 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:51738@61616
+2023-07-10 11:36:53,494 | WARN  | Transport Connection to: tcp://127.0.0.1:51747 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:51747@61616
+2023-07-10 11:38:57,713 | WARN  | Transport Connection to: tcp://127.0.0.1:51780 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:51780@61616
+2023-07-10 11:40:41,802 | WARN  | Transport Connection to: tcp://127.0.0.1:51817 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:51817@61616
+2023-07-10 12:49:56,874 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@6a41eaa2: startup date [Mon Jul 10 12:49:56 CEST 2023]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2023-07-10 12:49:57,283 | INFO  | PListStore:[H:\Download\apache-activemq-5.9.1\bin\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2023-07-10 12:49:57,293 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[H:\Download\apache-activemq-5.9.1\bin\..\data\kahadb] | org.apache.activemq.broker.BrokerService | main
+2023-07-10 12:49:57,501 | INFO  | KahaDB is version 5 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2023-07-10 12:49:57,523 | INFO  | Recovering from the journal ... | org.apache.activemq.store.kahadb.MessageDatabase | main
+2023-07-10 12:49:57,524 | INFO  | Recovery replayed 8 operations from the journal in 0.014 seconds. | org.apache.activemq.store.kahadb.MessageDatabase | main
+2023-07-10 12:49:57,653 | INFO  | Apache ActiveMQ 5.9.1 (localhost, ID:DESKTOP-EGLKD70-52339-1688986197536-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2023-07-10 12:49:57,706 | INFO  | Listening for connections at: tcp://DESKTOP-EGLKD70:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2023-07-10 12:49:57,706 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2023-07-10 12:49:57,708 | INFO  | Listening for connections at: amqp://DESKTOP-EGLKD70:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2023-07-10 12:49:57,708 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2023-07-10 12:49:57,710 | INFO  | Listening for connections at: stomp://DESKTOP-EGLKD70:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2023-07-10 12:49:57,710 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2023-07-10 12:49:57,712 | INFO  | Listening for connections at: mqtt://DESKTOP-EGLKD70:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2023-07-10 12:49:57,712 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2023-07-10 12:49:57,784 | INFO  | Listening for connections at ws://DESKTOP-EGLKD70:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2023-07-10 12:49:57,784 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2023-07-10 12:49:57,785 | INFO  | Apache ActiveMQ 5.9.1 (localhost, ID:DESKTOP-EGLKD70-52339-1688986197536-0:1) started | org.apache.activemq.broker.BrokerService | main
+2023-07-10 12:49:57,785 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2023-07-10 12:49:58,000 | INFO  | ActiveMQ WebConsole available at http://localhost:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2023-07-10 12:49:58,038 | INFO  | Initializing Spring FrameworkServlet 'dispatcher' | /admin | main
+2023-07-10 12:49:58,157 | INFO  | jolokia-agent: No access restrictor found at classpath:/jolokia-access.xml, access to all MBeans is allowed | /api | main
+2023-07-10 12:55:48,542 | WARN  | Transport Connection to: tcp://127.0.0.1:52369 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:52369@61616
+2023-07-10 12:56:34,702 | WARN  | Transport Connection to: tcp://127.0.0.1:52475 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:52475@61616
+2023-07-10 12:58:15,404 | WARN  | Transport Connection to: tcp://127.0.0.1:52505 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:52505@61616
+2023-07-10 13:04:18,427 | WARN  | Transport Connection to: tcp://127.0.0.1:52559 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:52559@61616
+2023-07-10 13:04:58,683 | WARN  | Transport Connection to: tcp://127.0.0.1:52575 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:52575@61616
+2023-07-10 13:05:22,855 | INFO  | Apache ActiveMQ 5.9.1 (localhost, ID:DESKTOP-EGLKD70-52339-1688986197536-0:1) is shutting down | org.apache.activemq.broker.BrokerService | Thread-31
+2023-07-10 13:05:22,856 | INFO  | Connector openwire stopped | org.apache.activemq.broker.TransportConnector | Thread-31
+2023-07-10 13:05:22,856 | INFO  | Connector amqp stopped | org.apache.activemq.broker.TransportConnector | Thread-31
+2023-07-10 13:05:22,856 | INFO  | Connector stomp stopped | org.apache.activemq.broker.TransportConnector | Thread-31
+2023-07-10 13:05:22,856 | INFO  | Connector mqtt stopped | org.apache.activemq.broker.TransportConnector | Thread-31
+2023-07-10 13:05:22,940 | INFO  | Connector ws stopped | org.apache.activemq.broker.TransportConnector | Thread-31
+2023-07-10 13:05:22,942 | INFO  | PListStore:[H:\Download\apache-activemq-5.9.1\bin\..\data\localhost\tmp_storage] stopped | org.apache.activemq.store.kahadb.plist.PListStoreImpl | Thread-31
+2023-07-10 13:05:22,942 | INFO  | Stopping async queue tasks | org.apache.activemq.store.kahadb.KahaDBStore | Thread-31
+2023-07-10 13:05:22,942 | INFO  | Stopping async topic tasks | org.apache.activemq.store.kahadb.KahaDBStore | Thread-31
+2023-07-10 13:05:22,942 | INFO  | Stopped KahaDB | org.apache.activemq.store.kahadb.KahaDBStore | Thread-31
+2023-07-10 13:05:23,046 | INFO  | Apache ActiveMQ 5.9.1 (localhost, ID:DESKTOP-EGLKD70-52339-1688986197536-0:1) uptime 15 minutes | org.apache.activemq.broker.BrokerService | Thread-31
+2023-07-10 13:05:23,046 | INFO  | Apache ActiveMQ 5.9.1 (localhost, ID:DESKTOP-EGLKD70-52339-1688986197536-0:1) is shutdown | org.apache.activemq.broker.BrokerService | Thread-31
+2023-07-10 13:05:23,046 | INFO  | Closing org.apache.activemq.xbean.XBeanBrokerFactory$1@6a41eaa2: startup date [Mon Jul 10 12:49:56 CEST 2023]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | Thread-31
+2023-07-10 13:05:23,082 | INFO  | Destroying Spring FrameworkServlet 'dispatcher' | /admin | Thread-31
+2023-07-10 16:00:51,169 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@6a41eaa2: startup date [Mon Jul 10 16:00:51 CEST 2023]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2023-07-10 16:00:51,550 | INFO  | PListStore:[H:\Download\apache-activemq-5.9.1\bin\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2023-07-10 16:00:51,559 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[H:\Download\apache-activemq-5.9.1\bin\..\data\kahadb] | org.apache.activemq.broker.BrokerService | main
+2023-07-10 16:00:51,758 | INFO  | KahaDB is version 5 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2023-07-10 16:00:51,780 | INFO  | Recovering from the journal ... | org.apache.activemq.store.kahadb.MessageDatabase | main
+2023-07-10 16:00:51,781 | INFO  | Recovery replayed 8 operations from the journal in 0.015 seconds. | org.apache.activemq.store.kahadb.MessageDatabase | main
+2023-07-10 16:00:51,906 | INFO  | Apache ActiveMQ 5.9.1 (localhost, ID:DESKTOP-EGLKD70-53528-1688997651793-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2023-07-10 16:00:51,966 | INFO  | Listening for connections at: tcp://DESKTOP-EGLKD70:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2023-07-10 16:00:51,966 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2023-07-10 16:00:51,968 | INFO  | Listening for connections at: amqp://DESKTOP-EGLKD70:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2023-07-10 16:00:51,969 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2023-07-10 16:00:51,971 | INFO  | Listening for connections at: stomp://DESKTOP-EGLKD70:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2023-07-10 16:00:51,972 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2023-07-10 16:00:51,974 | INFO  | Listening for connections at: mqtt://DESKTOP-EGLKD70:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2023-07-10 16:00:51,974 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2023-07-10 16:00:52,056 | INFO  | Listening for connections at ws://DESKTOP-EGLKD70:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2023-07-10 16:00:52,056 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2023-07-10 16:00:52,056 | INFO  | Apache ActiveMQ 5.9.1 (localhost, ID:DESKTOP-EGLKD70-53528-1688997651793-0:1) started | org.apache.activemq.broker.BrokerService | main
+2023-07-10 16:00:52,056 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2023-07-10 16:00:52,346 | INFO  | ActiveMQ WebConsole available at http://localhost:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2023-07-10 16:00:52,387 | INFO  | Initializing Spring FrameworkServlet 'dispatcher' | /admin | main
+2023-07-10 16:00:52,527 | INFO  | jolokia-agent: No access restrictor found at classpath:/jolokia-access.xml, access to all MBeans is allowed | /api | main
+2023-07-10 16:27:47,064 | INFO  | Apache ActiveMQ 5.9.1 (localhost, ID:DESKTOP-EGLKD70-53528-1688997651793-0:1) is shutting down | org.apache.activemq.broker.BrokerService | Thread-31
+2023-07-10 16:27:47,065 | INFO  | Connector openwire stopped | org.apache.activemq.broker.TransportConnector | Thread-31
+2023-07-10 16:27:47,065 | INFO  | Connector amqp stopped | org.apache.activemq.broker.TransportConnector | Thread-31
+2023-07-10 16:27:47,066 | INFO  | Connector stomp stopped | org.apache.activemq.broker.TransportConnector | Thread-31
+2023-07-10 16:27:47,067 | INFO  | Connector mqtt stopped | org.apache.activemq.broker.TransportConnector | Thread-31
+2023-07-10 16:27:47,152 | INFO  | Connector ws stopped | org.apache.activemq.broker.TransportConnector | Thread-31
+2023-07-10 16:27:47,154 | INFO  | PListStore:[H:\Download\apache-activemq-5.9.1\bin\..\data\localhost\tmp_storage] stopped | org.apache.activemq.store.kahadb.plist.PListStoreImpl | Thread-31
+2023-07-10 16:27:47,154 | INFO  | Stopping async queue tasks | org.apache.activemq.store.kahadb.KahaDBStore | Thread-31
+2023-07-10 16:27:47,154 | INFO  | Stopping async topic tasks | org.apache.activemq.store.kahadb.KahaDBStore | Thread-31
+2023-07-10 16:27:47,155 | INFO  | Stopped KahaDB | org.apache.activemq.store.kahadb.KahaDBStore | Thread-31
+2023-07-10 16:27:47,201 | INFO  | Apache ActiveMQ 5.9.1 (localhost, ID:DESKTOP-EGLKD70-53528-1688997651793-0:1) uptime 26 minutes | org.apache.activemq.broker.BrokerService | Thread-31
+2023-07-10 16:27:47,201 | INFO  | Apache ActiveMQ 5.9.1 (localhost, ID:DESKTOP-EGLKD70-53528-1688997651793-0:1) is shutdown | org.apache.activemq.broker.BrokerService | Thread-31
+2023-07-10 16:27:47,201 | INFO  | Closing org.apache.activemq.xbean.XBeanBrokerFactory$1@6a41eaa2: startup date [Mon Jul 10 16:00:51 CEST 2023]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | Thread-31
+2023-07-10 16:27:47,237 | INFO  | Destroying Spring FrameworkServlet 'dispatcher' | /admin | Thread-31
+2023-07-10 16:27:51,795 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@6a41eaa2: startup date [Mon Jul 10 16:27:51 CEST 2023]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2023-07-10 16:27:52,209 | INFO  | PListStore:[H:\Download\apache-activemq-5.9.1\bin\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2023-07-10 16:27:52,220 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[H:\Download\apache-activemq-5.9.1\bin\..\data\kahadb] | org.apache.activemq.broker.BrokerService | main
+2023-07-10 16:27:52,428 | INFO  | KahaDB is version 5 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2023-07-10 16:27:52,449 | INFO  | Recovering from the journal ... | org.apache.activemq.store.kahadb.MessageDatabase | main
+2023-07-10 16:27:52,463 | INFO  | Recovery replayed 331 operations from the journal in 0.027 seconds. | org.apache.activemq.store.kahadb.MessageDatabase | main
+2023-07-10 16:27:52,591 | INFO  | Apache ActiveMQ 5.9.1 (localhost, ID:DESKTOP-EGLKD70-53903-1688999272475-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2023-07-10 16:27:52,657 | INFO  | Listening for connections at: tcp://DESKTOP-EGLKD70:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2023-07-10 16:27:52,657 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2023-07-10 16:27:52,659 | INFO  | Listening for connections at: amqp://DESKTOP-EGLKD70:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2023-07-10 16:27:52,659 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2023-07-10 16:27:52,662 | INFO  | Listening for connections at: stomp://DESKTOP-EGLKD70:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2023-07-10 16:27:52,662 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2023-07-10 16:27:52,665 | INFO  | Listening for connections at: mqtt://DESKTOP-EGLKD70:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2023-07-10 16:27:52,666 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2023-07-10 16:27:52,754 | INFO  | Listening for connections at ws://DESKTOP-EGLKD70:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2023-07-10 16:27:52,754 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2023-07-10 16:27:52,754 | INFO  | Apache ActiveMQ 5.9.1 (localhost, ID:DESKTOP-EGLKD70-53903-1688999272475-0:1) started | org.apache.activemq.broker.BrokerService | main
+2023-07-10 16:27:52,755 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2023-07-10 16:27:53,006 | INFO  | ActiveMQ WebConsole available at http://localhost:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2023-07-10 16:27:53,050 | INFO  | Initializing Spring FrameworkServlet 'dispatcher' | /admin | main
+2023-07-10 16:27:53,221 | INFO  | jolokia-agent: No access restrictor found at classpath:/jolokia-access.xml, access to all MBeans is allowed | /api | main
+2023-07-14 15:35:02,877 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@6a41eaa2: startup date [Fri Jul 14 15:35:02 CEST 2023]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2023-07-14 15:35:03,380 | INFO  | PListStore:[H:\Download\apache-activemq-5.9.1\bin\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2023-07-14 15:35:03,389 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[H:\Download\apache-activemq-5.9.1\bin\..\data\kahadb] | org.apache.activemq.broker.BrokerService | main
+2023-07-14 15:35:03,678 | INFO  | KahaDB is version 5 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2023-07-14 15:35:03,705 | INFO  | Recovering from the journal ... | org.apache.activemq.store.kahadb.MessageDatabase | main
+2023-07-14 15:35:03,720 | INFO  | Recovery replayed 360 operations from the journal in 0.033 seconds. | org.apache.activemq.store.kahadb.MessageDatabase | main
+2023-07-14 15:35:03,850 | INFO  | Apache ActiveMQ 5.9.1 (localhost, ID:DESKTOP-EGLKD70-53450-1689341703732-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2023-07-14 15:35:03,920 | INFO  | Listening for connections at: tcp://DESKTOP-EGLKD70:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2023-07-14 15:35:03,920 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2023-07-14 15:35:03,922 | INFO  | Listening for connections at: amqp://DESKTOP-EGLKD70:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2023-07-14 15:35:03,922 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2023-07-14 15:35:03,925 | INFO  | Listening for connections at: stomp://DESKTOP-EGLKD70:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2023-07-14 15:35:03,925 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2023-07-14 15:35:03,927 | INFO  | Listening for connections at: mqtt://DESKTOP-EGLKD70:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2023-07-14 15:35:03,927 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2023-07-14 15:35:04,004 | INFO  | Listening for connections at ws://DESKTOP-EGLKD70:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2023-07-14 15:35:04,004 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2023-07-14 15:35:04,005 | INFO  | Apache ActiveMQ 5.9.1 (localhost, ID:DESKTOP-EGLKD70-53450-1689341703732-0:1) started | org.apache.activemq.broker.BrokerService | main
+2023-07-14 15:35:04,005 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2023-07-14 15:35:04,249 | INFO  | ActiveMQ WebConsole available at http://localhost:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2023-07-14 15:35:04,285 | INFO  | Initializing Spring FrameworkServlet 'dispatcher' | /admin | main
+2023-07-14 15:35:04,470 | INFO  | jolokia-agent: No access restrictor found at classpath:/jolokia-access.xml, access to all MBeans is allowed | /api | main
+2023-07-14 15:35:20,641 | WARN  | Transport Connection to: tcp://127.0.0.1:53466 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:53466@61616
+2023-07-14 15:35:39,742 | WARN  | Transport Connection to: tcp://127.0.0.1:53473 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:53473@61616
+2023-07-14 15:37:42,060 | WARN  | Transport Connection to: tcp://127.0.0.1:53479 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:53479@61616
+2023-07-14 15:38:34,922 | WARN  | Transport Connection to: tcp://127.0.0.1:53512 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:53512@61616
+2023-07-15 12:29:06,599 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@6a41eaa2: startup date [Sat Jul 15 12:29:06 CEST 2023]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2023-07-15 12:29:07,102 | INFO  | PListStore:[H:\Download\apache-activemq-5.9.1\bin\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2023-07-15 12:29:07,112 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[H:\Download\apache-activemq-5.9.1\bin\..\data\kahadb] | org.apache.activemq.broker.BrokerService | main
+2023-07-15 12:29:07,452 | INFO  | KahaDB is version 5 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2023-07-15 12:29:07,478 | INFO  | Recovering from the journal ... | org.apache.activemq.store.kahadb.MessageDatabase | main
+2023-07-15 12:29:07,480 | INFO  | Recovery replayed 17 operations from the journal in 0.02 seconds. | org.apache.activemq.store.kahadb.MessageDatabase | main
+2023-07-15 12:29:07,612 | INFO  | Apache ActiveMQ 5.9.1 (localhost, ID:DESKTOP-EGLKD70-52654-1689416947494-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2023-07-15 12:29:07,668 | INFO  | Listening for connections at: tcp://DESKTOP-EGLKD70:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2023-07-15 12:29:07,669 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2023-07-15 12:29:07,671 | INFO  | Listening for connections at: amqp://DESKTOP-EGLKD70:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2023-07-15 12:29:07,671 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2023-07-15 12:29:07,673 | INFO  | Listening for connections at: stomp://DESKTOP-EGLKD70:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2023-07-15 12:29:07,673 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2023-07-15 12:29:07,675 | INFO  | Listening for connections at: mqtt://DESKTOP-EGLKD70:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2023-07-15 12:29:07,675 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2023-07-15 12:29:07,751 | INFO  | Listening for connections at ws://DESKTOP-EGLKD70:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2023-07-15 12:29:07,751 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2023-07-15 12:29:07,753 | INFO  | Apache ActiveMQ 5.9.1 (localhost, ID:DESKTOP-EGLKD70-52654-1689416947494-0:1) started | org.apache.activemq.broker.BrokerService | main
+2023-07-15 12:29:07,753 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2023-07-15 12:29:08,095 | INFO  | ActiveMQ WebConsole available at http://localhost:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2023-07-15 12:29:08,136 | INFO  | Initializing Spring FrameworkServlet 'dispatcher' | /admin | main
+2023-07-15 12:29:08,316 | INFO  | jolokia-agent: No access restrictor found at classpath:/jolokia-access.xml, access to all MBeans is allowed | /api | main
+2023-07-15 12:30:24,874 | WARN  | Transport Connection to: tcp://127.0.0.1:52697 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:52697@61616
+2023-07-15 12:30:32,368 | INFO  | Apache ActiveMQ 5.9.1 (localhost, ID:DESKTOP-EGLKD70-52654-1689416947494-0:1) is shutting down | org.apache.activemq.broker.BrokerService | Thread-33
+2023-07-15 12:30:32,368 | INFO  | Connector openwire stopped | org.apache.activemq.broker.TransportConnector | Thread-33
+2023-07-15 12:30:32,369 | INFO  | Connector amqp stopped | org.apache.activemq.broker.TransportConnector | Thread-33
+2023-07-15 12:30:32,369 | INFO  | Connector stomp stopped | org.apache.activemq.broker.TransportConnector | Thread-33
+2023-07-15 12:30:32,369 | INFO  | Connector mqtt stopped | org.apache.activemq.broker.TransportConnector | Thread-33
+2023-07-15 12:30:32,454 | INFO  | Connector ws stopped | org.apache.activemq.broker.TransportConnector | Thread-33
+2023-07-15 12:30:32,457 | INFO  | PListStore:[H:\Download\apache-activemq-5.9.1\bin\..\data\localhost\tmp_storage] stopped | org.apache.activemq.store.kahadb.plist.PListStoreImpl | Thread-33
+2023-07-15 12:30:32,457 | INFO  | Stopping async queue tasks | org.apache.activemq.store.kahadb.KahaDBStore | Thread-33
+2023-07-15 12:30:32,457 | INFO  | Stopping async topic tasks | org.apache.activemq.store.kahadb.KahaDBStore | Thread-33
+2023-07-15 12:30:32,458 | INFO  | Stopped KahaDB | org.apache.activemq.store.kahadb.KahaDBStore | Thread-33
+2023-07-15 12:30:32,512 | INFO  | Apache ActiveMQ 5.9.1 (localhost, ID:DESKTOP-EGLKD70-52654-1689416947494-0:1) uptime 1 minute | org.apache.activemq.broker.BrokerService | Thread-33
+2023-07-15 12:30:32,512 | INFO  | Apache ActiveMQ 5.9.1 (localhost, ID:DESKTOP-EGLKD70-52654-1689416947494-0:1) is shutdown | org.apache.activemq.broker.BrokerService | Thread-33
+2023-07-15 12:30:32,512 | INFO  | Closing org.apache.activemq.xbean.XBeanBrokerFactory$1@6a41eaa2: startup date [Sat Jul 15 12:29:06 CEST 2023]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | Thread-33
+2023-07-15 12:30:32,550 | INFO  | Destroying Spring FrameworkServlet 'dispatcher' | /admin | Thread-33
+2023-07-15 12:30:37,127 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@6a41eaa2: startup date [Sat Jul 15 12:30:37 CEST 2023]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2023-07-15 12:30:37,531 | INFO  | PListStore:[H:\Download\apache-activemq-5.9.1\bin\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2023-07-15 12:30:37,541 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[H:\Download\apache-activemq-5.9.1\bin\..\data\kahadb] | org.apache.activemq.broker.BrokerService | main
+2023-07-15 12:30:37,747 | INFO  | KahaDB is version 5 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2023-07-15 12:30:37,769 | INFO  | Recovering from the journal ... | org.apache.activemq.store.kahadb.MessageDatabase | main
+2023-07-15 12:30:37,774 | INFO  | Recovery replayed 35 operations from the journal in 0.019 seconds. | org.apache.activemq.store.kahadb.MessageDatabase | main
+2023-07-15 12:30:37,899 | INFO  | Apache ActiveMQ 5.9.1 (localhost, ID:DESKTOP-EGLKD70-52716-1689417037785-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2023-07-15 12:30:37,956 | INFO  | Listening for connections at: tcp://DESKTOP-EGLKD70:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2023-07-15 12:30:37,956 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2023-07-15 12:30:37,958 | INFO  | Listening for connections at: amqp://DESKTOP-EGLKD70:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2023-07-15 12:30:37,958 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2023-07-15 12:30:37,960 | INFO  | Listening for connections at: stomp://DESKTOP-EGLKD70:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2023-07-15 12:30:37,960 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2023-07-15 12:30:37,962 | INFO  | Listening for connections at: mqtt://DESKTOP-EGLKD70:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2023-07-15 12:30:37,962 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2023-07-15 12:30:38,035 | INFO  | Listening for connections at ws://DESKTOP-EGLKD70:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2023-07-15 12:30:38,035 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2023-07-15 12:30:38,035 | INFO  | Apache ActiveMQ 5.9.1 (localhost, ID:DESKTOP-EGLKD70-52716-1689417037785-0:1) started | org.apache.activemq.broker.BrokerService | main
+2023-07-15 12:30:38,035 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2023-07-15 12:30:38,282 | INFO  | ActiveMQ WebConsole available at http://localhost:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2023-07-15 12:30:38,319 | INFO  | Initializing Spring FrameworkServlet 'dispatcher' | /admin | main
+2023-07-15 12:30:38,439 | INFO  | jolokia-agent: No access restrictor found at classpath:/jolokia-access.xml, access to all MBeans is allowed | /api | main
+2023-07-15 12:32:16,602 | WARN  | Transport Connection to: tcp://127.0.0.1:52737 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:52737@61616
+2023-07-15 18:05:55,068 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@6a41eaa2: startup date [Sat Jul 15 18:05:55 CEST 2023]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2023-07-15 18:05:55,529 | INFO  | PListStore:[H:\Download\apache-activemq-5.9.1\bin\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2023-07-15 18:05:55,538 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[H:\Download\apache-activemq-5.9.1\bin\..\data\kahadb] | org.apache.activemq.broker.BrokerService | main
+2023-07-15 18:05:55,792 | INFO  | KahaDB is version 5 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2023-07-15 18:05:55,886 | INFO  | Recovering from the journal ... | org.apache.activemq.store.kahadb.MessageDatabase | main
+2023-07-15 18:05:55,890 | INFO  | Recovery replayed 9 operations from the journal in 0.021 seconds. | org.apache.activemq.store.kahadb.MessageDatabase | main
+2023-07-15 18:05:56,024 | INFO  | Apache ActiveMQ 5.9.1 (localhost, ID:DESKTOP-EGLKD70-56843-1689437155906-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2023-07-15 18:05:56,087 | INFO  | Listening for connections at: tcp://DESKTOP-EGLKD70:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2023-07-15 18:05:56,088 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2023-07-15 18:05:56,089 | INFO  | Listening for connections at: amqp://DESKTOP-EGLKD70:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2023-07-15 18:05:56,090 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2023-07-15 18:05:56,091 | INFO  | Listening for connections at: stomp://DESKTOP-EGLKD70:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2023-07-15 18:05:56,092 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2023-07-15 18:05:56,093 | INFO  | Listening for connections at: mqtt://DESKTOP-EGLKD70:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2023-07-15 18:05:56,093 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2023-07-15 18:05:56,169 | INFO  | Listening for connections at ws://DESKTOP-EGLKD70:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2023-07-15 18:05:56,169 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2023-07-15 18:05:56,170 | INFO  | Apache ActiveMQ 5.9.1 (localhost, ID:DESKTOP-EGLKD70-56843-1689437155906-0:1) started | org.apache.activemq.broker.BrokerService | main
+2023-07-15 18:05:56,170 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2023-07-15 18:05:56,459 | INFO  | ActiveMQ WebConsole available at http://localhost:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2023-07-15 18:05:56,513 | INFO  | Initializing Spring FrameworkServlet 'dispatcher' | /admin | main
+2023-07-15 18:05:56,628 | INFO  | jolokia-agent: No access restrictor found at classpath:/jolokia-access.xml, access to all MBeans is allowed | /api | main
+2023-07-15 18:09:43,571 | WARN  | Transport Connection to: tcp://127.0.0.1:56878 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:56878@61616
+2023-07-15 18:09:43,572 | WARN  | Transport Connection to: tcp://127.0.0.1:56872 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:56872@61616
+2023-07-16 15:37:37,787 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@6a41eaa2: startup date [Sun Jul 16 15:37:37 CEST 2023]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2023-07-16 15:37:38,236 | INFO  | PListStore:[H:\Download\apache-activemq-5.9.1\bin\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2023-07-16 15:37:38,246 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[H:\Download\apache-activemq-5.9.1\bin\..\data\kahadb] | org.apache.activemq.broker.BrokerService | main
+2023-07-16 15:37:38,523 | INFO  | KahaDB is version 5 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2023-07-16 15:37:38,543 | INFO  | Recovering from the journal ... | org.apache.activemq.store.kahadb.MessageDatabase | main
+2023-07-16 15:37:38,550 | INFO  | Recovery replayed 88 operations from the journal in 0.02 seconds. | org.apache.activemq.store.kahadb.MessageDatabase | main
+2023-07-16 15:37:38,676 | INFO  | Apache ActiveMQ 5.9.1 (localhost, ID:DESKTOP-EGLKD70-52019-1689514658562-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2023-07-16 15:37:38,733 | INFO  | Listening for connections at: tcp://DESKTOP-EGLKD70:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2023-07-16 15:37:38,733 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2023-07-16 15:37:38,735 | INFO  | Listening for connections at: amqp://DESKTOP-EGLKD70:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2023-07-16 15:37:38,735 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2023-07-16 15:37:38,737 | INFO  | Listening for connections at: stomp://DESKTOP-EGLKD70:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2023-07-16 15:37:38,737 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2023-07-16 15:37:38,739 | INFO  | Listening for connections at: mqtt://DESKTOP-EGLKD70:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2023-07-16 15:37:38,739 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2023-07-16 15:37:38,805 | INFO  | Listening for connections at ws://DESKTOP-EGLKD70:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2023-07-16 15:37:38,805 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2023-07-16 15:37:38,806 | INFO  | Apache ActiveMQ 5.9.1 (localhost, ID:DESKTOP-EGLKD70-52019-1689514658562-0:1) started | org.apache.activemq.broker.BrokerService | main
+2023-07-16 15:37:38,806 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2023-07-16 15:37:39,064 | INFO  | ActiveMQ WebConsole available at http://localhost:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2023-07-16 15:37:39,106 | INFO  | Initializing Spring FrameworkServlet 'dispatcher' | /admin | main
+2023-07-16 15:37:39,258 | INFO  | jolokia-agent: No access restrictor found at classpath:/jolokia-access.xml, access to all MBeans is allowed | /api | main
+2023-07-16 15:38:40,112 | WARN  | Transport Connection to: tcp://127.0.0.1:52066 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:52066@61616
+2023-07-16 15:39:59,525 | WARN  | Transport Connection to: tcp://127.0.0.1:52056 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:52056@61616
+2023-07-16 15:40:00,091 | WARN  | Transport Connection to: tcp://127.0.0.1:52091 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:52091@61616
+2023-07-16 19:18:29,303 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@6a41eaa2: startup date [Sun Jul 16 19:18:29 CEST 2023]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2023-07-16 19:18:29,687 | INFO  | PListStore:[H:\Download\apache-activemq-5.9.1\bin\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2023-07-16 19:18:29,696 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[H:\Download\apache-activemq-5.9.1\bin\..\data\kahadb] | org.apache.activemq.broker.BrokerService | main
+2023-07-16 19:18:29,905 | INFO  | KahaDB is version 5 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2023-07-16 19:18:29,926 | INFO  | Recovering from the journal ... | org.apache.activemq.store.kahadb.MessageDatabase | main
+2023-07-16 19:18:29,933 | INFO  | Recovery replayed 119 operations from the journal in 0.021 seconds. | org.apache.activemq.store.kahadb.MessageDatabase | main
+2023-07-16 19:18:30,060 | INFO  | Apache ActiveMQ 5.9.1 (localhost, ID:DESKTOP-EGLKD70-54147-1689527909946-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2023-07-16 19:18:30,116 | INFO  | Listening for connections at: tcp://DESKTOP-EGLKD70:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2023-07-16 19:18:30,116 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2023-07-16 19:18:30,118 | INFO  | Listening for connections at: amqp://DESKTOP-EGLKD70:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2023-07-16 19:18:30,118 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2023-07-16 19:18:30,120 | INFO  | Listening for connections at: stomp://DESKTOP-EGLKD70:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2023-07-16 19:18:30,120 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2023-07-16 19:18:30,121 | INFO  | Listening for connections at: mqtt://DESKTOP-EGLKD70:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2023-07-16 19:18:30,122 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2023-07-16 19:18:30,194 | INFO  | Listening for connections at ws://DESKTOP-EGLKD70:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2023-07-16 19:18:30,194 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2023-07-16 19:18:30,194 | INFO  | Apache ActiveMQ 5.9.1 (localhost, ID:DESKTOP-EGLKD70-54147-1689527909946-0:1) started | org.apache.activemq.broker.BrokerService | main
+2023-07-16 19:18:30,194 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2023-07-16 19:18:30,427 | INFO  | ActiveMQ WebConsole available at http://localhost:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2023-07-16 19:18:30,471 | INFO  | Initializing Spring FrameworkServlet 'dispatcher' | /admin | main
+2023-07-16 19:18:30,610 | INFO  | jolokia-agent: No access restrictor found at classpath:/jolokia-access.xml, access to all MBeans is allowed | /api | main
+2023-07-16 19:21:09,466 | INFO  | Apache ActiveMQ 5.9.1 (localhost, ID:DESKTOP-EGLKD70-54147-1689527909946-0:1) is shutting down | org.apache.activemq.broker.BrokerService | Thread-33
+2023-07-16 19:21:09,469 | INFO  | Connector openwire stopped | org.apache.activemq.broker.TransportConnector | Thread-33
+2023-07-16 19:21:09,469 | INFO  | Connector amqp stopped | org.apache.activemq.broker.TransportConnector | Thread-33
+2023-07-16 19:21:09,469 | INFO  | Connector stomp stopped | org.apache.activemq.broker.TransportConnector | Thread-33
+2023-07-16 19:21:09,469 | INFO  | Connector mqtt stopped | org.apache.activemq.broker.TransportConnector | Thread-33
+2023-07-16 19:21:09,555 | INFO  | Connector ws stopped | org.apache.activemq.broker.TransportConnector | Thread-33
+2023-07-16 19:21:09,557 | INFO  | PListStore:[H:\Download\apache-activemq-5.9.1\bin\..\data\localhost\tmp_storage] stopped | org.apache.activemq.store.kahadb.plist.PListStoreImpl | Thread-33
+2023-07-16 19:21:09,557 | INFO  | Stopping async queue tasks | org.apache.activemq.store.kahadb.KahaDBStore | Thread-33
+2023-07-16 19:21:09,557 | INFO  | Stopping async topic tasks | org.apache.activemq.store.kahadb.KahaDBStore | Thread-33
+2023-07-16 19:21:09,557 | INFO  | Stopped KahaDB | org.apache.activemq.store.kahadb.KahaDBStore | Thread-33
+2023-07-16 19:21:09,751 | INFO  | Apache ActiveMQ 5.9.1 (localhost, ID:DESKTOP-EGLKD70-54147-1689527909946-0:1) uptime 2 minutes | org.apache.activemq.broker.BrokerService | Thread-33
+2023-07-16 19:21:09,751 | INFO  | Apache ActiveMQ 5.9.1 (localhost, ID:DESKTOP-EGLKD70-54147-1689527909946-0:1) is shutdown | org.apache.activemq.broker.BrokerService | Thread-33
+2023-07-16 19:21:09,751 | INFO  | Closing org.apache.activemq.xbean.XBeanBrokerFactory$1@6a41eaa2: startup date [Sun Jul 16 19:18:29 CEST 2023]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | Thread-33
+2023-07-16 19:21:09,787 | INFO  | Destroying Spring FrameworkServlet 'dispatcher' | /admin | Thread-33
+2023-07-16 19:21:14,336 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@6a41eaa2: startup date [Sun Jul 16 19:21:14 CEST 2023]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2023-07-16 19:21:14,716 | INFO  | PListStore:[H:\Download\apache-activemq-5.9.1\bin\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2023-07-16 19:21:14,726 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[H:\Download\apache-activemq-5.9.1\bin\..\data\kahadb] | org.apache.activemq.broker.BrokerService | main
+2023-07-16 19:21:14,933 | INFO  | KahaDB is version 5 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2023-07-16 19:21:14,955 | INFO  | Recovering from the journal ... | org.apache.activemq.store.kahadb.MessageDatabase | main
+2023-07-16 19:21:14,964 | INFO  | Recovery replayed 152 operations from the journal in 0.022 seconds. | org.apache.activemq.store.kahadb.MessageDatabase | main
+2023-07-16 19:21:15,090 | INFO  | Apache ActiveMQ 5.9.1 (localhost, ID:DESKTOP-EGLKD70-54249-1689528074976-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2023-07-16 19:21:15,146 | INFO  | Listening for connections at: tcp://DESKTOP-EGLKD70:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2023-07-16 19:21:15,146 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2023-07-16 19:21:15,148 | INFO  | Listening for connections at: amqp://DESKTOP-EGLKD70:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2023-07-16 19:21:15,148 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2023-07-16 19:21:15,150 | INFO  | Listening for connections at: stomp://DESKTOP-EGLKD70:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2023-07-16 19:21:15,150 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2023-07-16 19:21:15,152 | INFO  | Listening for connections at: mqtt://DESKTOP-EGLKD70:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2023-07-16 19:21:15,152 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2023-07-16 19:21:15,223 | INFO  | Listening for connections at ws://DESKTOP-EGLKD70:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2023-07-16 19:21:15,223 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2023-07-16 19:21:15,223 | INFO  | Apache ActiveMQ 5.9.1 (localhost, ID:DESKTOP-EGLKD70-54249-1689528074976-0:1) started | org.apache.activemq.broker.BrokerService | main
+2023-07-16 19:21:15,223 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2023-07-16 19:21:15,477 | INFO  | ActiveMQ WebConsole available at http://localhost:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2023-07-16 19:21:15,534 | INFO  | Initializing Spring FrameworkServlet 'dispatcher' | /admin | main
+2023-07-16 19:21:15,681 | INFO  | jolokia-agent: No access restrictor found at classpath:/jolokia-access.xml, access to all MBeans is allowed | /api | main
+2023-07-16 19:25:04,590 | INFO  | Apache ActiveMQ 5.9.1 (localhost, ID:DESKTOP-EGLKD70-54249-1689528074976-0:1) is shutting down | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2023-07-16 19:25:04,593 | INFO  | Connector openwire stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2023-07-16 19:25:04,593 | INFO  | Connector amqp stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2023-07-16 19:25:04,593 | INFO  | Connector stomp stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2023-07-16 19:25:04,593 | INFO  | Connector mqtt stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2023-07-16 19:25:04,677 | INFO  | Connector ws stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2023-07-16 19:25:04,679 | INFO  | PListStore:[H:\Download\apache-activemq-5.9.1\bin\..\data\localhost\tmp_storage] stopped | org.apache.activemq.store.kahadb.plist.PListStoreImpl | ActiveMQ ShutdownHook
+2023-07-16 19:25:04,679 | INFO  | Stopping async queue tasks | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2023-07-16 19:25:04,679 | INFO  | Stopping async topic tasks | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2023-07-16 19:25:04,679 | INFO  | Stopped KahaDB | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2023-07-16 19:25:05,158 | INFO  | Apache ActiveMQ 5.9.1 (localhost, ID:DESKTOP-EGLKD70-54249-1689528074976-0:1) uptime 3 minutes | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2023-07-16 19:25:05,158 | INFO  | Apache ActiveMQ 5.9.1 (localhost, ID:DESKTOP-EGLKD70-54249-1689528074976-0:1) is shutdown | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2023-07-16 19:25:05,158 | INFO  | Closing org.apache.activemq.xbean.XBeanBrokerFactory$1@6a41eaa2: startup date [Sun Jul 16 19:21:14 CEST 2023]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | ActiveMQ ShutdownHook
+2023-07-16 19:25:05,193 | INFO  | Destroying Spring FrameworkServlet 'dispatcher' | /admin | ActiveMQ ShutdownHook
+2023-07-16 19:25:32,413 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@6a41eaa2: startup date [Sun Jul 16 19:25:32 CEST 2023]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2023-07-16 19:25:32,805 | INFO  | PListStore:[H:\Download\apache-activemq-5.9.1\bin\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2023-07-16 19:25:32,815 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[H:\Download\apache-activemq-5.9.1\bin\..\data\kahadb] | org.apache.activemq.broker.BrokerService | main
+2023-07-16 19:25:33,529 | INFO  | KahaDB is version 5 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2023-07-16 19:25:33,554 | INFO  | Recovering from the journal ... | org.apache.activemq.store.kahadb.MessageDatabase | main
+2023-07-16 19:25:33,565 | INFO  | Recovery replayed 199 operations from the journal in 0.026 seconds. | org.apache.activemq.store.kahadb.MessageDatabase | main
+2023-07-16 19:25:33,690 | INFO  | Apache ActiveMQ 5.9.1 (localhost, ID:DESKTOP-EGLKD70-54352-1689528333576-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2023-07-16 19:25:33,749 | INFO  | Listening for connections at: tcp://DESKTOP-EGLKD70:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2023-07-16 19:25:33,750 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2023-07-16 19:25:33,752 | INFO  | Listening for connections at: amqp://DESKTOP-EGLKD70:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2023-07-16 19:25:33,752 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2023-07-16 19:25:33,753 | INFO  | Listening for connections at: stomp://DESKTOP-EGLKD70:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2023-07-16 19:25:33,754 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2023-07-16 19:25:33,755 | INFO  | Listening for connections at: mqtt://DESKTOP-EGLKD70:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2023-07-16 19:25:33,755 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2023-07-16 19:25:33,825 | INFO  | Listening for connections at ws://DESKTOP-EGLKD70:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2023-07-16 19:25:33,825 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2023-07-16 19:25:33,825 | INFO  | Apache ActiveMQ 5.9.1 (localhost, ID:DESKTOP-EGLKD70-54352-1689528333576-0:1) started | org.apache.activemq.broker.BrokerService | main
+2023-07-16 19:25:33,826 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2023-07-16 19:25:34,074 | INFO  | ActiveMQ WebConsole available at http://localhost:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2023-07-16 19:25:34,120 | INFO  | Initializing Spring FrameworkServlet 'dispatcher' | /admin | main
+2023-07-16 19:25:34,245 | INFO  | jolokia-agent: No access restrictor found at classpath:/jolokia-access.xml, access to all MBeans is allowed | /api | main
+2023-07-16 19:28:26,517 | WARN  | Transport Connection to: tcp://127.0.0.1:54368 failed: java.net.SocketException: Connection reset | org.apache.activemq.broker.TransportConnection.Transport | ActiveMQ Transport: tcp:///127.0.0.1:54368@61616
+2023-07-16 19:28:34,262 | INFO  | Apache ActiveMQ 5.9.1 (localhost, ID:DESKTOP-EGLKD70-54352-1689528333576-0:1) is shutting down | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2023-07-16 19:28:34,262 | INFO  | Connector openwire stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2023-07-16 19:28:34,262 | INFO  | Connector amqp stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2023-07-16 19:28:34,263 | INFO  | Connector stomp stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2023-07-16 19:28:34,263 | INFO  | Connector mqtt stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2023-07-16 19:28:34,346 | INFO  | Connector ws stopped | org.apache.activemq.broker.TransportConnector | ActiveMQ ShutdownHook
+2023-07-16 19:28:34,348 | INFO  | PListStore:[H:\Download\apache-activemq-5.9.1\bin\..\data\localhost\tmp_storage] stopped | org.apache.activemq.store.kahadb.plist.PListStoreImpl | ActiveMQ ShutdownHook
+2023-07-16 19:28:34,348 | INFO  | Stopping async queue tasks | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2023-07-16 19:28:34,348 | INFO  | Stopping async topic tasks | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2023-07-16 19:28:34,348 | INFO  | Stopped KahaDB | org.apache.activemq.store.kahadb.KahaDBStore | ActiveMQ ShutdownHook
+2023-07-16 19:28:34,477 | INFO  | Apache ActiveMQ 5.9.1 (localhost, ID:DESKTOP-EGLKD70-54352-1689528333576-0:1) uptime 3 minutes | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2023-07-16 19:28:34,477 | INFO  | Apache ActiveMQ 5.9.1 (localhost, ID:DESKTOP-EGLKD70-54352-1689528333576-0:1) is shutdown | org.apache.activemq.broker.BrokerService | ActiveMQ ShutdownHook
+2023-07-16 19:28:34,478 | INFO  | Closing org.apache.activemq.xbean.XBeanBrokerFactory$1@6a41eaa2: startup date [Sun Jul 16 19:25:32 CEST 2023]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | ActiveMQ ShutdownHook
+2023-07-16 19:28:34,513 | INFO  | Destroying Spring FrameworkServlet 'dispatcher' | /admin | ActiveMQ ShutdownHook
+2023-07-16 19:28:47,564 | INFO  | Refreshing org.apache.activemq.xbean.XBeanBrokerFactory$1@6a41eaa2: startup date [Sun Jul 16 19:28:47 CEST 2023]; root of context hierarchy | org.apache.activemq.xbean.XBeanBrokerFactory$1 | main
+2023-07-16 19:28:47,973 | INFO  | PListStore:[H:\Download\apache-activemq-5.9.1\bin\..\data\localhost\tmp_storage] started | org.apache.activemq.store.kahadb.plist.PListStoreImpl | main
+2023-07-16 19:28:47,983 | INFO  | Using Persistence Adapter: KahaDBPersistenceAdapter[H:\Download\apache-activemq-5.9.1\bin\..\data\kahadb] | org.apache.activemq.broker.BrokerService | main
+2023-07-16 19:28:48,187 | INFO  | KahaDB is version 5 | org.apache.activemq.store.kahadb.MessageDatabase | main
+2023-07-16 19:28:48,210 | INFO  | Recovering from the journal ... | org.apache.activemq.store.kahadb.MessageDatabase | main
+2023-07-16 19:28:48,221 | INFO  | Recovery replayed 236 operations from the journal in 0.026 seconds. | org.apache.activemq.store.kahadb.MessageDatabase | main
+2023-07-16 19:28:48,349 | INFO  | Apache ActiveMQ 5.9.1 (localhost, ID:DESKTOP-EGLKD70-54415-1689528528234-0:1) is starting | org.apache.activemq.broker.BrokerService | main
+2023-07-16 19:28:48,413 | INFO  | Listening for connections at: tcp://DESKTOP-EGLKD70:61616?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2023-07-16 19:28:48,413 | INFO  | Connector openwire started | org.apache.activemq.broker.TransportConnector | main
+2023-07-16 19:28:48,415 | INFO  | Listening for connections at: amqp://DESKTOP-EGLKD70:5672?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2023-07-16 19:28:48,415 | INFO  | Connector amqp started | org.apache.activemq.broker.TransportConnector | main
+2023-07-16 19:28:48,417 | INFO  | Listening for connections at: stomp://DESKTOP-EGLKD70:61613?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2023-07-16 19:28:48,417 | INFO  | Connector stomp started | org.apache.activemq.broker.TransportConnector | main
+2023-07-16 19:28:48,419 | INFO  | Listening for connections at: mqtt://DESKTOP-EGLKD70:1883?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.TransportServerThreadSupport | main
+2023-07-16 19:28:48,419 | INFO  | Connector mqtt started | org.apache.activemq.broker.TransportConnector | main
+2023-07-16 19:28:48,492 | INFO  | Listening for connections at ws://DESKTOP-EGLKD70:61614?maximumConnections=1000&wireFormat.maxFrameSize=104857600 | org.apache.activemq.transport.ws.WSTransportServer | main
+2023-07-16 19:28:48,492 | INFO  | Connector ws started | org.apache.activemq.broker.TransportConnector | main
+2023-07-16 19:28:48,492 | INFO  | Apache ActiveMQ 5.9.1 (localhost, ID:DESKTOP-EGLKD70-54415-1689528528234-0:1) started | org.apache.activemq.broker.BrokerService | main
+2023-07-16 19:28:48,492 | INFO  | For help or more information please see: http://activemq.apache.org | org.apache.activemq.broker.BrokerService | main
+2023-07-16 19:28:48,715 | INFO  | ActiveMQ WebConsole available at http://localhost:8161/ | org.apache.activemq.web.WebConsoleStarter | main
+2023-07-16 19:28:48,752 | INFO  | Initializing Spring FrameworkServlet 'dispatcher' | /admin | main
+2023-07-16 19:28:48,895 | INFO  | jolokia-agent: No access restrictor found at classpath:/jolokia-access.xml, access to all MBeans is allowed | /api | main
