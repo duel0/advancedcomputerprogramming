@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>SFC Group</title>
+    <link href="stylesheets/style.css" rel="stylesheet" type="text/css" />
+    <link
+      href="http://fonts.googleapis.com/css?family=Roboto"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ysabeau+Office:wght@1&display=swap"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <!-- FONTAWESOME: PRENDO LE SUE ICONE -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- FAVICON CON IL CIUCCIO -->
+    <link rel="icon" type="image/x-icon" href="img/ciuccio.png" />
+  </head>
+  <!-- CASO D'USO: REGISTRA ESITO TELEFONATA. Registrare Numero, Data, Ora, Note, Esito (set fixato di scelte)-->
+  <body>
+    <!-- HEADER  -->
+    <div class="header"> <!-- TUTTA LA ZONA -->
+      <div class="header_box"> <!-- BOX SENZA SBARRA ARANCIONE -->
+        <div class="header_content">
+          <div class="logo_box"> <!-- SINISTRA: LOGO+SCRITTA -->
+            <div class="logo">
+              <img src="img/ciuccio.png" alt="logo image" />
+            </div>
+            <div>
+              <h1 class="nav_title">SFC Group Call Center</h1>
+            </div>
+          </div>
+          <div class="nav_box"> <!-- DESTRA: PULSANTI CON ICONE -->
+            <div class="nav_container">
+              <div class="nav_bar">
+                <ul>
+                  <li>
+                    <a href="#"> <!-- CLICCABILE IMMAGINE + SCRITTA -->
+                      <span>
+                        <i class="fa-solid fa-user"></i>
+                      </span>
+                      Admin
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#"> <!-- CLICCABILE IMMAGINE + SCRITTA -->
+                      <span>
+                        <i class="fa-solid fa-fire-flame-curved"></i>
+                      </span>
+                      Centralinista
+                    </a>
+                  </li>
+                  <li>
+                    <a href="#"> <!-- CLICCABILE IMMAGINE + SCRITTA -->
+                      <span>
+                        <i class="fa-solid fa-phone"></i>
+                      </span>
+                      Agente
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- FINE HEADER  -->
+
+    <!-- CONTENUTO BODY -->
+    
+    <div class="body_content">
+      <div class="body_conyainer"> <!-- DESCRIZIONE PRIMA DI MAIN  -->
+        <div class="body_heading"> 
+          <h1>"Se telefonando io potessi dirti addio..."</h1>
+        </div>
+        <div class="content">
+          <div class="content_text">
+            <p>
+              "...ti chiamerei!!!"
+              <br />
+              <br />
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore
+              officia perspiciatis corrupti suscipit iusto, assumenda
+              perferendis facere explicabo et quas eum minus nam consequatur
+              dicta repudiandae nihil necessitatibus at qui ad quisquam
+              repellendus quae. Necessitatibus!
+            </p>
+            <!-- MAIN: CONTAINER CON PULSANTI -->
+            <main>
+              <div class="container">
+                <div class="tabs">
+                  <a href=""><span class="active">Visualizza Chiamate</span></a>
+                  <a href=""><span>Registra Chiamata</span></a>
+                </div>
+                <div class="content"></div>
+              </div>
+            </main>
+          </div>
+          <!-- IMMAGINE (dx vicino scritta penso)-->
+          <div class="content_image">
+            <div class="bgimage">
+              <img
+                class="image_Large"
+                src="https://img.freepik.com/free-photo/people-working-call-center_23-2149288184.jpg?w=740&t=st=1689426908~exp=1689427508~hmac=24a46c3e07e3981207d645a5e2b073b7a6897c24e33b717be8a3a22f7b7f33a8"
+                alt="image"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- FINE CONTENUTO BODY  -->
+
+
+    <!-- FOOTER  -->
+    <div class="footer">
+      <div class="footer_content">
+        <p class="para_one"> <!-- FOOTER DI SOPRA -->
+          © 2023 Francesco Balassone N46005679 - Advanced Computer Programming - Prof. De Simone Luigi
+        </p>
+        <div class="para_two"> <!-- FOOTER CENTRO -->
+          <div class="footer_contact">
+            <h2>Contattaci! (o a questo punto Chiamaci!)</h2>
+            <ul class="footer_ul">
+              <li class="footer_li"><a href="#">SFC Group</a></li>
+              <li class="footer_li">
+                <a href="#">Via Mina e Celentano 10</a>
+              </li>
+              <li class="footer_li">
+                <a href="#">+39 333-123-1234</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer_logo"> <!-- LOGHI -->
+            <img src="img/inkpx-word-art2.png" alt="Ciuccio Logo" />
+          </div>
+        </div>
+        <div class="social_link">
+          <span class="social"
+            ><i class="fa-brands fa-square-facebook"></i
+          ></span>
+          <span class="social"
+            ><i class="fa-brands fa-square-twitter"></i
+          ></span>
+          <span class="social"><i class="fa-brands fa-instagram"></i></span>
+        </div>
+      </div>
+    </div>
+    <!-- FINE FOOTER  -->
+
+    <!-- JAVASCRIPTS -->
+    <script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+    <script src="javascripts/app.js"></script>
+  </body>
+</html>

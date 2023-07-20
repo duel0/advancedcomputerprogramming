@@ -1,0 +1,298 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* INIZIO HEADER CSS  */
+.header_box {
+  width: 100%;
+  height: auto;
+  background-color: #082B59;
+  border-bottom: 0.6rem solid #D98555;
+}
+
+.header_content {
+  display: flex;
+  justify-content: center;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.logo_box {
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+.nav_title{
+  color: white;
+}
+
+.logo>img {
+  width: auto;
+  height: 8rem;
+}
+
+.nav_box {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.nav_bar>ul {
+  width: 26rem;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  
+}
+
+li {
+  color: white;
+  font-size: 23px;
+}
+
+li>a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  color: #D98555;
+}
+/* FINE HEADER CSS  */
+
+
+
+/* INIZIO BODY CSS  */
+.body_conyainer {
+  margin-top: 2rem;
+  padding: 3rem;
+}
+
+.content {
+  display: flex;
+  padding-top: 3rem
+}
+
+.content_text {
+  width: 52%;
+  margin-bottom: 1rem;
+}
+
+.content_text>p {
+ 
+  padding-right: 3.5rem;
+  font-size: 19.2px;
+  line-height: 38.4px;
+  font-weight: 400;
+  margin-bottom: 2rem;
+}
+
+.content_image {
+  width: 47%;
+  padding-right: 1rem;
+}
+
+.bgimage>img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.image_Large {
+  display: block;
+}
+
+.tabs>a{
+  text-decoration: none;
+}
+.tabs>a>span{
+  padding: 1rem;
+  background-color: #082B59;
+  text-decoration: none;
+  color: white;
+  border-radius: 7px;
+}
+.tabs>a>span:hover{
+  background-color: white;
+  border: 1px solid #082B59;
+  color: #082B59;
+  cursor: pointer;
+}
+.button {
+  margin-top: 1rem;
+}
+
+.button>a {
+  padding: 0.6rem;
+  background-color: #59331D;
+  text-decoration: none;
+  color: white;
+  border-radius: 7px;
+}
+
+/* ---------------- FORM CSS  -----------------  */
+p {
+  font-size: 17px;
+}
+.numero,
+.data,
+.ora,
+.note {
+  height: 40px;
+  width: 23rem;
+  padding-left: 0.5rem;
+  border: none;
+  font-size: 16px;
+  border-bottom: 2px solid #d98555;
+  background-color: rgba(237, 237, 237, 0.475);
+}
+form {
+  width: 350px;
+}
+fieldset {
+  border: none;
+}
+
+fieldset > input {
+  border: none;
+}
+input[type=radio] {
+  appearance: none;
+  padding: 10px;
+  background-color: #d9855596;
+  border-radius:50%;
+}
+input[type=radio]:checked {
+  background-color: #082b59;
+}
+.form_botton {
+  padding: 1rem;
+  background-color: #082b59;
+  text-decoration: none;
+  color: white;
+  border-radius: 7px;
+}
+.form_botton:hover {
+  background-color: white;
+  border: 1px solid #082b59;
+  color: #082b59;
+  cursor: pointer;
+}
+/* ---------------- FORM CSS  -----------------  */
+
+/* ELEMENTI TELEFONATA  */
+ul>pre{
+  color: black;
+  border: 1px solid #082b59;
+  border-radius: 7px;
+  font-size: 16px;
+  padding: 1rem;
+  margin: 1rem;
+  background-color: rgb(221, 235, 255);
+}
+
+
+
+/* FINE BODY CSS  */
+
+
+/* INIZIO FOOTER CSS  */
+.footer{
+  background-color: #082B59;
+  margin-top: -4px;
+}
+.footer_content{
+  padding: 1rem;
+  
+}
+.para_one{
+  color: white;
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  font-size: 19px;
+}
+.para_two{
+  
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  padding: 1rem;
+  font-size: 17px;
+}
+.footer_logo>img{
+  width: 20rem;
+}
+.footer_li{
+  list-style: none;
+}
+.footer_li>a{
+  text-decoration: none;
+  font-size: 16px;
+}
+.social_link{
+  display: flex;
+  justify-content: center;
+}
+
+.social>i{
+  color: white;
+  font-size: 2rem;
+  padding: 1rem;
+  margin-bottom: 3rem;
+}
+/* FINE FOOTER CSS  */
+
+
+/* INIZIO MEDIA QUERY */
+@media screen and (max-width: 768px) {
+  .image_Large {
+      display: none;
+  }
+
+  .body_conyainer {
+      margin-top: 2rem;
+      padding: 0;
+      padding-left: 3rem;
+  }
+
+  .content_text {
+      width: 58%;
+  }
+
+  .content_text>p {
+      font-size: 19px;
+      padding-right: 1rem;
+      line-height: 2;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  
+  .body_conyainer {
+      margin-top: 2rem;
+      padding: 0;
+      padding-left: 1rem;
+
+  }
+  .content_image {
+      width: 100%;
+  }
+
+  .image_Large {
+      display: none;
+  }
+
+  .content_text {
+      width: 100%;
+  }
+
+  .content {
+      display: flex;
+      padding-top: 3rem;
+      flex-wrap: wrap;
+  }
+}
+/* FINE MEDIA QUERY */
